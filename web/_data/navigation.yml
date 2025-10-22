@@ -10,7 +10,7 @@ en: &DEFAULT_EN
     - title: "About"
       section: about
     - title: "Team"
-      url: team
+      section: team
     - title: "Contact"
       section: contact
 en-US:

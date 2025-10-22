@@ -11,28 +11,36 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: This is Back to Bits
-    text: We are making your next favorite game
+    title: Back to Bits
+    text: We make games
     button: Tell Me More
     buttonlink: "#contact"
 
   projects:
     title: "Projects"
-    text: "Our games"
-    section: projects
+    text: "HOW THE FUCK DOES THIS WORK"
     closebutton: "Close Project"
+    section: projects
 
   about:
     title: "About Us"
-    text: "bleh"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "text"
+    body: "body"
     section: about
 
   team:
+    title: "Team"
+    text: "text"
+    body: "body"
+    section: about
+    button: See our lineup
+    buttonlink: "lineup"
+
+  lineup:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
+    section: lineup
     people:
       - name: Raúl "Raplajo" Planas
         role: producer
