@@ -20,19 +20,19 @@ plugins:
 
 title      : Back to Bits
 email      : BackToBitsStudio@gmail.com
-description: "Site description"
+description: 
 author     : marmaestro
 logo:
-  path: assets\img\clients\creative-market.jpg
-  height: 60 #height in px, defaults to 52px
+  path: assets/logo/banner-text.png
+  height: 60
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "en-US"
 
 #analytics:
 #  google: #Google Analytics tracking code here
 
-# collections:
-#  portfolio:
+collections:
+  portfolio: 
 
 markdown: kramdown
 

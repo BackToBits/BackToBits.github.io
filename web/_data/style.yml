@@ -1,14 +1,14 @@
 #Color Customization
-#highlight: "#54bfff"
-white: "#FFF000"
-black: "#000"
+highlight: "#0D1E81"
+white: "#F2F2F2"
+black: "#303030"
 
 #Image Customization
-header-image: "/assets/pluto.png"
-contact-image: "/assets/map-image.png"
+header-image: "/assets/misc/pluto.png"
+contact-image: "/assets/misc/map-image.png"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
-portfolio-icon: bi bi-box
+portfolio-icon: bi bi-plus-circle-fill
 
 # Add custom fonts
 fonts_urls:

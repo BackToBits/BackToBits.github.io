@@ -1,9 +1,4 @@
 <!-- Portfolio Grid -->
-
-<section><div>{% for project in site.posts %}
-a
-{%endfor%}</div></section>
-
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].portfolio.section | default: "portfolio" }}">
   <div class="container">
@@ -19,7 +14,7 @@ a
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+              <i class="{{ site.data.style.portfolio-icon | default: "bi bi-plus" }}"></i>
             </div>
           </div>
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
@@ -48,7 +43,7 @@ a
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+              <i class="{{ site.data.style.portfolio-icon | default: "bi bi-plus" }}"></i>
             </div>
           </div>
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
