@@ -1,0 +1,23 @@
+people:
+- name: Raúl Planas Jover
+  role: producer
+  image: assets/team/raplajo.jpg
+  social:
+  - url: https://www.linkedin.com/in/ra%C3%BAl-planas-jover-b0330b1a6/
+    icon: bi bi-linkedin
+
+- name: Mar Maestro Momparler
+  role: developer, head of QA
+  image: assets/team/mar.jpeg
+  social:
+  - url: https://www.linkedin.com/in/marmaestro/
+    icon: bi bi-linkedin
+  - url: https://bsky.app/profile/marmaestro.itch.io
+    icon: bi bi-bluesky
+
+- name: Generic-team memeber
+  role: "?"
+  image: assets/team/
+  social:
+  - url: https://
+    icon: bi bi-linkedin

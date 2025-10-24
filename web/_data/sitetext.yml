@@ -10,17 +10,18 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
+  
   header:
     title: Back to Bits
     text: We make games
-    button: Tell Me More
+    button: Know More
     buttonlink: "#contact"
 
-  projects:
-    title: "Projects"
-    text: "HOW THE FUCK DOES THIS WORK"
+  portfolio:
+    title: "Portfolio"
+    text: "ÂAAAAAAAAAAAAAAAAA"
+    section: portfolio
     closebutton: "Close Project"
-    section: projects
 
   about:
     title: "About Us"
@@ -30,9 +31,9 @@ en: &DEFAULT_EN
 
   team:
     title: "Team"
-    text: "text"
-    body: "body"
-    section: about
+    text: "Team text"
+    body: "Team body"
+    section: team
     button: See our lineup
     buttonlink: "lineup"
 
@@ -41,142 +42,10 @@ en: &DEFAULT_EN
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: lineup
-    people:
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Mar Maestro
-        role: developer, quality assurance
-        image: assets/team/mar.jpeg
-        social:
-          - url: "https://linkedin.com/in/marmaestro"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/marmaestro
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/marmaestro.itch.io
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
-      - name: Raúl "Raplajo" Planas
-        role: producer
-        image: 
-        social:
-          - url: "https://linkedin.com/in/"
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/
-            icon: "fab fa-github"
-          - url: https://bsky.app/profile/
-            icon: "fab fa-bluseky"
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Fill this contact form!"
     section: contact
     name: "Name (required)"
     name-validation: "Please enter your name."
@@ -188,22 +57,20 @@ en: &DEFAULT_EN
     phone-validation: "Please enter your phone number."
     message: "Message (required)"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
+    subject: "Contact Form [EN]"
     submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
     social:
       - url: https://bsky.app/profile/backtobits.bsky.social
-        icon: "fab fa-bluseky"
+        icon: "bi bi-bluesky"
       - url: https://x.com/BackToBitsSt
-        icon: "fab fa-twitter"
-      - url: https://www.instagram.com/backtobitsstudios/
-        icon: "fab fa-instagram"
+        icon: "bi bi-twitter-x"
       - url: https://www.linkedin.com/company/backtobits/
-        icon: "fab fa-linkedin-in"
+        icon: "bi bi-linkedin"
       - url: https://github.com/BackToBits
-        icon: "fab fa-github"
+        icon: "bi bi-github"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -216,13 +83,14 @@ en-AU:
 # Spanish
 # -------
 es: &DEFAULT_ES
+  
   header:
     title: This is Back to Bits
     text: We are making your next favorite game
     button: Tell Me More
     buttonlink: "#contact"
 
-  projects:
+  portfolio:
     title: "Projects"
     text: "Our games"
     section: projects
@@ -255,15 +123,13 @@ es: &DEFAULT_ES
     legal: "Privacy Policy"
     social:
       - url: https://bsky.app/profile/backtobits.bsky.social
-        icon: "fab fa-bluseky"
+        icon: "bi bi-bluesky"
       - url: https://x.com/BackToBitsSt
-        icon: "fab fa-twitter"
-      - url: https://www.instagram.com/backtobitsstudios/
-        icon: "fab fa-instagram"
+        icon: "bi bi-twitter-x"
       - url: https://www.linkedin.com/company/backtobits/
-        icon: "fab fa-linkedin-in"
+        icon: "bi bi-linkedin"
       - url: https://github.com/BackToBits
-        icon: "fab fa-github"  
+        icon: "bi bi-github"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
