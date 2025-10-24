@@ -18,8 +18,8 @@ en: &DEFAULT_EN
     buttonlink: "#contact"
 
   portfolio:
-    title: "Portfolio"
-    text: "ÂAAAAAAAAAAAAAAAAA"
+    title: "Out projects"
+    #text: "Out current projects"
     section: portfolio
     closebutton: "Close Project"
 
@@ -34,11 +34,11 @@ en: &DEFAULT_EN
     text: "Team text"
     body: "Team body"
     section: team
-    button: See our lineup
+    button: See our whole team
     buttonlink: "lineup"
 
   lineup:
-    title: "OUR AMAZING TEAM"
+    title: "Our amazing team"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: lineup
