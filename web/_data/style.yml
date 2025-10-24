@@ -1,7 +1,9 @@
-#Color Customization
-highlight: "#0D1E81"
-white: "#F2F2F2"
-black: "#303030"
+#Colour Customization
+highlight:
+  light: "#0F26A5"
+  dark: "#FAE56F"
+white: "#F0F0F0"
+black: "#050505"
 
 #Image Customization
 header-image: "/assets/misc/pluto.png"

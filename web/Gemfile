@@ -38,3 +38,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-agency"
 
 # Add logger gem
+
+gem "jekyll-minima", "~> 3.0.pre20220104"
