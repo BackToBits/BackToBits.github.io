@@ -6,6 +6,7 @@ section#contact {
   background-position: center;
   .section-heading {
     color: $white;
+    @media (prefers-color-scheme: dark) { color: $black; }
   }
   .form-group {
     margin-bottom: 25px;
@@ -27,21 +28,25 @@ section#contact {
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;
+    @media (prefers-color-scheme: dark) { color: $gray-600; }
     @include heading-font;
   }
   :-moz-placeholder {
     font-weight: 700;
     color: $gray-400;
+    @media (prefers-color-scheme: dark) { color: $gray-600; }
     @include heading-font;
   }
   ::-moz-placeholder {
     font-weight: 700;
     color: $gray-400;
+    @media (prefers-color-scheme: dark) { color: $gray-600; }
     @include heading-font;
   }
   :-ms-input-placeholder {
     font-weight: 700;
     color: $gray-400;
+    @media (prefers-color-scheme: dark) { color: $gray-600; }
     @include heading-font;
   }
 }
