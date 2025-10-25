@@ -1,9 +1,13 @@
 ---
 ---
 @charset "utf-8";
+
+// Sass classes
+@use 'sass:color';
+
 // Core variables and mixins
-@import "../../_sass/base/variables.scss";
-@import "../../_sass/base/mixins.scss";
+@import "../../_sass/base/variables";
+@import "../../_sass/base/mixins";
 
 // Custom Fonts
 {% if site.data.style.fonts %}
@@ -31,15 +35,15 @@ $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 
 // Global CSS
-@import "../../_sass/base/page.scss";
+@import "../../_sass/base/page";
 
 // Components
-@import "../../_sass/components/buttons.scss";
-@import "../../_sass/components/navbar.scss";
+@import "../../_sass/components/buttons";
+@import "../../_sass/components/navbar";
 
 // Layout
-@import "../../_sass/layout/masthead.scss";
-@import "../../_sass/layout/portfolio.scss";
-@import "../../_sass/layout/team.scss";
-@import "../../_sass/layout/contact.scss";
-@import "../../_sass/layout/footer.scss";
+@import "../../_sass/layout/masthead";
+@import "../../_sass/layout/portfolio";
+@import "../../_sass/layout/team";
+@import "../../_sass/layout/contact";
+@import "../../_sass/layout/footer";
