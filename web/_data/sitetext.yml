@@ -1,136 +1,113 @@
-#
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-# English (default)
-# -----------------
 en: &DEFAULT_EN
-  
-  header:
-    title: Back to Bits
-    text: We make games
-    button: Know More
-    buttonlink: "#contact"
 
-  portfolio:
-    title: "Out projects"
-    #text: "Out current projects"
-    section: portfolio
-    closebutton: "Close Project"
+    header:
+        title: Back to Bits
+        text: We make games
+        button: Know More
+        buttonlink: "#contact"
 
-  about:
-    title: "About Us"
-    text: "text"
-    body: "body"
-    section: about
+    portfolio:
+        title: "Our projects"
+        text: "Game jam projects we're building further"
+        section: portfolio
+        closebutton: "Close Project"
 
-  team:
-    title: "Team"
-    text: "Team text"
-    body: "Team body"
-    section: team
-    button: See our whole team
-    buttonlink: "lineup"
+    team:
+        title: "About us"
+        body: "Back to Bits is a freelance game development studio situated in Castelló de la Plana, Spain.<br>We met at university and have been passionately creating games ever since."
+        section: team
+        button: Meet the team
+        buttonlink: "lineup"
 
-  lineup:
-    title: "Our amazing team"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: lineup
+    lineup:
+        title: "Our amazing team"
+        subtitle: "**Markdown** supported."
+        section: lineup
 
-  contact:
-    title: "Contact Us"
-    text: "Fill this contact form!"
-    section: contact
-    name: "Name (required)"
-    name-validation: "Please enter your name."
-    email: "Email (required)"
-    email-validation: "Please enter your email address."
-    subject: "Subject"
-    subject-validation: "Please enter a subject."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message (required)"
-    message-validation: "Please enter a message."
-    subject: "Contact Form [EN]"
-    submit: "Send Message"
+    contact:
+        title: "Contact Us"
+        text: "Fill this contact form!"
+        section: contact
+        name: "Name (required)"
+        name-validation: "Please enter your name."
+        email: "Email (required)"
+        email-validation: "Please enter your email address."
+        subject: "Subject"
+        subject-validation: "Please enter a subject."
+        phone: "Phone Number (include country prefix)"
+        phone-validation: "Please enter your phone number."
+        message: "Message (required)"
+        message-validation: "Please enter a message."
+        subject: "Contact Form [EN]"
+        submit: "Send Message"
 
-  footer:
-    legal: "Privacy Policy"
-    social:
-      - url: https://bsky.app/profile/backtobits.bsky.social
-        icon: "bi bi-bluesky"
-      - url: https://x.com/BackToBitsSt
-        icon: "bi bi-twitter-x"
-      - url: https://www.linkedin.com/company/backtobits/
-        icon: "bi bi-linkedin"
-      - url: https://github.com/BackToBits
-        icon: "bi bi-github"
+    footer:
+        legal: "Privacy Policy"
+        social:
+        - url: https://bsky.app/profile/backtobits.bsky.social
+          icon: "bi bi-bluesky"
+        - url: https://x.com/BackToBitsSt
+          icon: "bi bi-twitter-x"
+        - url: https://www.linkedin.com/company/backtobits/
+          icon: "bi bi-linkedin"
+        - url: https://github.com/BackToBits
+          icon: "bi bi-github"
 en-US:
-  <<: *DEFAULT_EN
+    <<: *DEFAULT_EN
 en-CA:
-  <<: *DEFAULT_EN
+    <<: *DEFAULT_EN
 en-GB:
-  <<: *DEFAULT_EN
+    <<: *DEFAULT_EN
 en-AU:
-  <<: *DEFAULT_EN
+    <<: *DEFAULT_EN
 
 # Spanish
 # -------
 es: &DEFAULT_ES
-  
-  header:
-    title: This is Back to Bits
-    text: We are making your next favorite game
-    button: Tell Me More
-    buttonlink: "#contact"
 
-  portfolio:
-    title: "Projects"
-    text: "Our games"
-    section: projects
-    closebutton: "Close Project"
+    header:
+        title: This is Back to Bits
+        text: We are making your next favorite game
+        button: Tell Me More
+        buttonlink: "#contact"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+    portfolio:
+        title: "Projects"
+        text: "Our games"
+        section: projects
+        closebutton: "Close Project"
 
-  contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    subject: "Subject"
-    subject-validation: "Please enter a subject."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    contact:
+        title: "Contact Us"
+        text: "Lorem ipsum or call 123456789"
+        section: contact
+        name: "Name*"
+        name-validation: "Please enter your name."
+        email: "Email*"
+        email-validation: "Please enter your email address."
+        subject: "Subject"
+        subject-validation: "Please enter a subject."
+        phone: "Phone Number"
+        phone-validation: "Please enter your phone number."
+        message: "Message*"
+        message-validation: "Please enter a message."
+        subject: "Contact Form Submission"
+        submit: "Send Message"
 
-  footer:
-    legal: "Privacy Policy"
-    social:
-      - url: https://bsky.app/profile/backtobits.bsky.social
-        icon: "bi bi-bluesky"
-      - url: https://x.com/BackToBitsSt
-        icon: "bi bi-twitter-x"
-      - url: https://www.linkedin.com/company/backtobits/
-        icon: "bi bi-linkedin"
-      - url: https://github.com/BackToBits
-        icon: "bi bi-github"
+    footer:
+        legal: "Privacy Policy"
+        social:
+        - url: https://bsky.app/profile/backtobits.bsky.social
+          icon: "bi bi-bluesky"
+        - url: https://x.com/BackToBitsSt
+          icon: "bi bi-twitter-x"
+        - url: https://www.linkedin.com/company/backtobits/
+          icon: "bi bi-linkedin"
+        - url: https://github.com/BackToBits
+          icon: "bi bi-github"
 es-ES:
-  <<: *DEFAULT_ES
+    <<: *DEFAULT_ES
 es-CO:
-  <<: *DEFAULT_ES
+    <<: *DEFAULT_ES

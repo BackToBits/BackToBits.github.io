@@ -1,23 +1,124 @@
 people:
-- name: Raúl Planas Jover
+- name: Raúl Planas
   role: producer
   image: assets/team/raplajo.jpg
   social:
   - url: https://www.linkedin.com/in/ra%C3%BAl-planas-jover-b0330b1a6/
     icon: bi bi-linkedin
 
-- name: Mar Maestro Momparler
+- name: Mar Maestro
   role: developer, head of QA
   image: assets/team/mar.jpeg
   social:
   - url: https://www.linkedin.com/in/marmaestro/
     icon: bi bi-linkedin
-  - url: https://bsky.app/profile/marmaestro.itch.io
-    icon: bi bi-bluesky
+  - url: https://marmaestro.github.io
+    icon: bi bi-bookmark-fill
 
-- name: Generic-team memeber
-  role: "?"
+-   name: Álvaro Chuan
+    role: developer, lead
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Mario Beltrán
+  role: developer
   image: assets/team/
   social:
-  - url: https://
+  - url: https://linkedin.com/in
     icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
+-   name: Diego Pérez
+    role: developer
+    image: assets/team/
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Víctor ?
+  role: developer, head of VFX
+  image: assets/team/
+  social:
+  - url: https://linkedin.com/in
+    icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
+-   name: Edward Mena
+    role: developer, VFX
+    image: assets/team/
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Ian Soria
+  role: 3D artist
+  image: assets/team/
+  social:
+  - url: https://linkedin.com/in
+    icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
+-   name: Jorge Molina
+    role: 3D artist, lead
+    image: assets/team/
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Cristian ?
+  role: 3D artist, lead
+  image: assets/team/
+  social:
+  - url: https://linkedin.com/in
+    icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
+-   name: Sergio Gallardo
+    role: 3D artist
+    image: assets/team/
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Eva Petrakova
+  role: 3D artist
+  image: assets/team/
+  social:
+  - url: https://linkedin.com/in
+    icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
+-   name: Joan Castells Appriou
+    role: 2D artist, narrative lead
+    image: assets/team/
+    social:
+    -   url: https://linkedin.com/in
+        icon: bi bi-linkedin
+    -   url: https://
+        icon: bi bi-
+
+- name: Alex Arévalo Arenas
+  role: game design lead
+  image: assets/team/
+  social:
+  - url: https://linkedin.com/in
+    icon: bi bi-linkedin
+  - url: https://
+    icon: bi bi-
+
