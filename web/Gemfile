@@ -37,4 +37,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # http://jekyllthemes.org/themes/agency/
 gem "jekyll-agency"
 
-# Add logger gem
+# Add fiddle and logger gems
+gem "fiddle", "~> 1.1"
+gem "logger", "~> 1.7"

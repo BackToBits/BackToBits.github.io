@@ -1,4 +1,4 @@
-// Global styling for this template
+// Global styling
 body {
   overflow-x: hidden;
   @include body-font;
@@ -11,7 +11,7 @@ p {
 a {
   color: $primary;
   &:hover {
-    color: darken($primary, 10%);
+    color: color.adjust($primary, $lightness: -10%);
   }
 }
 
