@@ -7,8 +7,6 @@ en: &DEFAULT_EN
   nav:
     - title: "Projects"
       section: portfolio
-    - title: "About"
-      section: about
     - title: "Team"
       section: team
     - title: "Contact"
@@ -28,8 +26,6 @@ es: &DEFAULT_ES
   nav:
     - title: "Proyectos"
       section: portfolio
-    - title: "Sobre nosotros"
-      section: about
     - title: "Equipo"
       section: team
     - title: "Contacto"
