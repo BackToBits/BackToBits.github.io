@@ -31,6 +31,8 @@ es: &DEFAULT_ES
     - title: "Contacto"
       section: contact
 es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+    <<: *DEFAULT_ES
+es-MX:
+    <<: *DEFAULT_ES
+cat:
+    <<: *DEFAULT_ES

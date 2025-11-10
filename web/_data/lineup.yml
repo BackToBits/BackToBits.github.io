@@ -87,12 +87,12 @@ en: &DEFAULT_EN
     
     -   name:  Cristian Hernández Delgado
         role:  3D character artist and animator<br>3D art lead
-        image: assets/team/
+        image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
             icon: bi bi-linkedin
         -   url:  https://www.artstation.com/cristian0x0
-            icon: bi bi-box
+            icon: bi bi-bookmark-fill
     
     -   name:  Sergio Gallardo Vieco
         role:  3D prop artist
@@ -137,12 +137,13 @@ en: &DEFAULT_EN
         social:
         -   url:
             icon:
-
-en-GB:
-    <<: *DEFAULT_EN
 en-US:
     <<: *DEFAULT_EN
 en-CA:
+    <<: *DEFAULT_EN
+en-GB:
+    <<: *DEFAULT_EN
+en-AU:
     <<: *DEFAULT_EN
 
 # Spanish
@@ -232,12 +233,12 @@ es: &DEFAULT_ES
     
     -   name:  Cristian Hernández Delgado
         role:  3D character artist and animator<br>3D art lead
-        image: assets/team/
+        image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
             icon: bi bi-linkedin
         -   url:  https://www.artstation.com/cristian0x0
-            icon: bi bi-box
+            icon: bi bi-bookmark-fill
     
     -   name:  Sergio Gallardo Vieco
         role:  3D prop artist

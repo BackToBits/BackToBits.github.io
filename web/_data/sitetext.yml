@@ -117,5 +117,7 @@ es: &DEFAULT_ES
           icon: "bi bi-github"
 es-ES:
     <<: *DEFAULT_ES
-es-CO:
+es-MX:
+    <<: *DEFAULT_ES
+cat:
     <<: *DEFAULT_ES
