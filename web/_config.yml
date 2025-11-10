@@ -15,7 +15,7 @@ logo:
   path: assets/logo/banner-text.png
   height: 60
 
-locale: "en-US"
+locale: "es-ES"
 
 #analytics:
 #  google: #Google Analytics tracking code here

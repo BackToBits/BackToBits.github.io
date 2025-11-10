@@ -41,7 +41,7 @@ people:
     -   url: https://
         icon: bi bi-
 
-- name: Víctor ?
+- name: Víctor Melià Vilar
   role: developer, head of VFX
   image: assets/team/
   social:
@@ -68,14 +68,14 @@ people:
   - url: https://
     icon: bi bi-
 
--   name: Jorge Molina
+-   name: Jorge Florencio Molina Peinado
     role: 3D artist, lead
-    image: assets/team/
+    image: assets/team/jorge.png
     social:
-    -   url: https://linkedin.com/in
+    -   url: https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
         icon: bi bi-linkedin
-    -   url: https://
-        icon: bi bi-
+    -   url: https://linktr.ee/floromacobaDev
+        icon: bi bi-link-45deg
 
 - name: Cristian ?
   role: 3D artist, lead
@@ -86,7 +86,7 @@ people:
   - url: https://
     icon: bi bi-
 
--   name: Sergio Gallardo
+-   name: Sergio Gallardo Vieco
     role: 3D artist
     image: assets/team/
     social:
@@ -106,12 +106,10 @@ people:
 
 -   name: Joan Castells Appriou
     role: 2D artist, narrative lead
-    image: assets/team/
+    image: assets/team/joan.jpg
     social:
-    -   url: https://linkedin.com/in
+    -   url: https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
         icon: bi bi-linkedin
-    -   url: https://
-        icon: bi bi-
 
 - name: Alex Arévalo Arenas
   role: game design lead
