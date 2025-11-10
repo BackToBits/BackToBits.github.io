@@ -50,7 +50,7 @@ en: &DEFAULT_EN
             icon: bi bi-bookmark-fill
     
     -   name:  Víctor Melià Vilar
-        role:  VFX tech artist
+        role:  VFX tech artist<br>VFX lead
         image: assets/team/
         social:
         -   url:  https://linkedin.com/in
@@ -133,10 +133,12 @@ en: &DEFAULT_EN
     
     -   name: Miguel Martínez Martínez
         role: freelancer, gameplay programmer
-        image:
+        image: assets/team/miguel.jpg
         social:
-        -   url:
-            icon:
+        -   url: https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
+            icon: bi bi-linkedin
+        -   url: https://miguelmm-portfolio.vercel.app/
+            icon: bi bi-bookmark-fill
 en-US:
     <<: *DEFAULT_EN
 en-CA:
@@ -152,7 +154,7 @@ es: &DEFAULT_ES
     people:
     
     -   name:  Raúl Planas Jover
-        role:  producer
+        role:  productor
         image: assets/team/raul.jpg
         social:
         -   url:  https://www.linkedin.com/in/raplajo/
@@ -161,7 +163,7 @@ es: &DEFAULT_ES
             icon: bi bi-joystick
     
     -   name:  Mar Maestro Momparler
-        role:  QA and debugging
+        role:  QA y debugging
         image: assets/team/mar.jpeg
         social:
         -   url:  https://www.linkedin.com/in/marmaestro/
@@ -170,7 +172,7 @@ es: &DEFAULT_ES
             icon: bi bi-bookmark-fill
     
     -   name: Álvaro Chuan
-        role: tool and gameplay programmer<br>programming lead
+        role: programador de herramientas y gameplay<br>coordinador de programación
         social:
         -   url:  https://linkedin.com/in
             icon: bi bi-linkedin
@@ -178,7 +180,7 @@ es: &DEFAULT_ES
             icon: bi bi-
     
     -   name:  Mario Beltrán García
-        role:  gameplay programmer
+        role:  programador de gameplay
         image: assets/team/mario.png
         social:
         -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
@@ -187,7 +189,7 @@ es: &DEFAULT_ES
             icon: bi bi-joystick
     
     -   name:  Diego Pérez Rueda
-        role:  systems and gameplay programmer
+        role:  programador de sistemas y gameplay
         image: assets/team/diego.jpg
         social:
         -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
@@ -196,7 +198,7 @@ es: &DEFAULT_ES
             icon: bi bi-bookmark-fill
     
     -   name:  Víctor Melià Vilar
-        role:  VFX tech artist
+        role:  artista de VFX<br>>coordinador de VFX
         image: assets/team/
         social:
         -   url:  https://linkedin.com/in
@@ -205,7 +207,7 @@ es: &DEFAULT_ES
             icon: bi bi-
     
     -   name:  Edward Mena
-        role:  VFX artist
+        role:  artista de VFX
         image: assets/team/edward.jpg
         social:
         -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
@@ -214,7 +216,7 @@ es: &DEFAULT_ES
             icon: bi bi-_portfolio-fill
     
     -   name:  Ian Soria
-        role:  3D and junior VFX artist
+        role:  artista 3D y de VFX (junior)
         image: assets/team/
         social:
         -   url:  https://linkedin.com/in
@@ -223,7 +225,7 @@ es: &DEFAULT_ES
             icon: bi bi-
     
     -   name:  Jorge Florencio Molina Peinado
-        role:  3D artist
+        role:  artista 3D
         image: assets/team/jorge.png
         social:
         -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
@@ -232,7 +234,7 @@ es: &DEFAULT_ES
             icon: bi bi-link-45deg
     
     -   name:  Cristian Hernández Delgado
-        role:  3D character artist and animator<br>3D art lead
+        role:  artista de personajes y animación 3D<br>coordinador de arte 3D
         image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
@@ -241,28 +243,28 @@ es: &DEFAULT_ES
             icon: bi bi-bookmark-fill
     
     -   name:  Sergio Gallardo Vieco
-        role:  3D prop artist
+        role:  artista de elementos 3D
         image: assets/team/sergio.jpg
         social:
         -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
             icon: bi bi-linkedin
     
     -   name:  Eva Petrakova
-        role:  3D texture artist
+        role:  artista de texturas 3D
         image: assets/team/eva.jpg
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
             icon: bi bi-linkedin
     
     -   name:  Joan Castells Appriou
-        role:  game and narrative designer
+        role:  diseñador de juego y narrativa
         image: assets/team/joan.jpg
         social:
         -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
             icon: bi bi-linkedin
     
     -   name:  Alex Arévalo Arenas
-        role:  game and sound designer
+        role:  diseñador de juego y sonido
         image: assets/team/alex.jpg
         social:
         -   url:  https://www.linkedin.com/in/alejandro-arevalo-
@@ -271,18 +273,20 @@ es: &DEFAULT_ES
             icon: bi bi-bookmark-fill
     
     -   name:  Javier Machín Mourelle (GatlingArt)
-        role:  freelancer, 2D artist<br>2D art lead
+        role:  freelancer, artista 2D<br>coordinador de arte 2D
         image: assets/team/machin.png
         social:
         -   url:  https://x.com/GatlingArt
             icon: bi bi-twitter-x
     
-    -   name: Miguel Martínez Martínez
-        role: freelancer, gameplay programmer
-        image:
+    -   name:  Miguel Martínez Martínez
+        role:  freelancer, programador de gameplay
+        image: assets/team/miguel.jpg
         social:
-        -   url:
-            icon:
+        -   url:  https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
+            icon: bi bi-linkedin
+        -   url:  https://miguelmm-portfolio.vercel.app/
+            icon: bi bi-bookmark-fill
 es-ES:
     <<: *DEFAULT_ES
 es-MX:
