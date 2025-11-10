@@ -9,7 +9,7 @@
 	</div>
   </div>
   <div class="row d-flex justify-content-center">
-  {% for person in site.data.team.people %}
+  {% for person in site.data.lineup[site.locale].people %}
 	<div class="col-sm-4">
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">

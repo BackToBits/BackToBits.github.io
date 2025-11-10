@@ -16,7 +16,7 @@ en: &DEFAULT_EN
 
     team:
         title: "About us"
-        body: "Back to Bits is a freelance game development studio situated in Castelló de la Plana, Spain.<br>We met at university and have been passionately creating games ever since."
+        body: "Back to Bits is a freelance game development studio situated in Castelló de la Plana, Spain. We met at university and have been passionately creating games ever since."
         section: team
         button: Meet the team
         buttonlink: "lineup"
@@ -34,8 +34,6 @@ en: &DEFAULT_EN
         name-validation: "Please enter your name."
         email: "Email (required)"
         email-validation: "Please enter your email address."
-        subject: "Subject"
-        subject-validation: "Please enter a subject."
         phone: "Phone Number (include country prefix)"
         phone-validation: "Please enter your phone number."
         message: "Message (required)"
@@ -68,36 +66,46 @@ en-AU:
 es: &DEFAULT_ES
 
     header:
-        title: This is Back to Bits
-        text: We are making your next favorite game
-        button: Tell Me More
+        title: Back to Bits
+        text: Hacemos juegos
+        button: Conócenos
         buttonlink: "#contact"
 
     portfolio:
-        title: "Projects"
-        text: "Our games"
+        title: "Nuestros proyectos"
+        text: "Proyectos de game jam que estamos mejorando"
         section: projects
-        closebutton: "Close Project"
+        closebutton: "Cerrar proyecto"
+
+    team:
+        title: "Sobre nosotros"
+        body: "Back to Bits es un estudio freelance de desarrollo de videojuegos situado en Castelló de la Plana, España. Nos conocimos en la universidad y creamos juegos desde entonces."
+        section: team
+        button: Conoce al equipo
+        buttonlink: "lineup"
+
+    lineup:
+        title: "Nuestro increíble equipo"
+        subtitle: "**Markdown** supported."
+        section: lineup
 
     contact:
-        title: "Contact Us"
-        text: "Lorem ipsum or call 123456789"
+        title: "Contacta con nosotros"
+        text: "¡Rellena este formulario!"
         section: contact
-        name: "Name*"
-        name-validation: "Please enter your name."
-        email: "Email*"
-        email-validation: "Please enter your email address."
-        subject: "Subject"
-        subject-validation: "Please enter a subject."
-        phone: "Phone Number"
-        phone-validation: "Please enter your phone number."
-        message: "Message*"
-        message-validation: "Please enter a message."
-        subject: "Contact Form Submission"
-        submit: "Send Message"
+        name: "Nombre (obligatorio)"
+        name-validation: "Por favor, introduce tu nombre."
+        email: "Email (obligatorio)"
+        email-validation: "Por favor, introduce tu dirección de correo."
+        phone: "Número de teléfono (incluye el prefijo)"
+        phone-validation: "Por favor, introduce tu número de teléfono."
+        message: "Mensaje (obligatorio)"
+        message-validation: "Por favor, introduce un mensaje."
+        subject: "Contact Form [ES]"
+        submit: "Enviar mensaje"
 
     footer:
-        legal: "Privacy Policy"
+        legal: "Política de privacidad"
         social:
         - url: https://bsky.app/profile/backtobits.bsky.social
           icon: "bi bi-bluesky"

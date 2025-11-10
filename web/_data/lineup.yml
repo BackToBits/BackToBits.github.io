@@ -1,0 +1,290 @@
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+    people:
+    
+    -   name:  Raúl Planas Jover
+        role:  producer
+        image: assets/team/raul.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/raplajo/
+            icon: bi bi-linkedin
+        -   url:  https://raplajo.itch.io/
+            icon: bi bi-joystick
+    
+    -   name:  Mar Maestro Momparler
+        role:  QA and debugging
+        image: assets/team/mar.jpeg
+        social:
+        -   url:  https://www.linkedin.com/in/marmaestro/
+            icon: bi bi-linkedin
+        -   url:  https://marmaestro.github.io
+            icon: bi bi-bookmark-fill
+    
+    -   name: Álvaro Chuan
+        role: tool and gameplay programmer<br>programming lead
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Mario Beltrán García
+        role:  gameplay programmer
+        image: assets/team/mario.png
+        social:
+        -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
+            icon: bi bi-linkedin
+        -   url:  https://mariio145.itch.io/
+            icon: bi bi-joystick
+    
+    -   name:  Diego Pérez Rueda
+        role:  systems and gameplay programmer
+        image: assets/team/diego.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
+            icon: bi bi-linkedin
+        -   url:  https://kiskidiego.github.io/
+            icon: bi bi-bookmark-fill
+    
+    -   name:  Víctor Melià Vilar
+        role:  VFX tech artist
+        image: assets/team/
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Edward Mena
+        role:  VFX artist
+        image: assets/team/edward.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
+            icon: bi bi-linkedin
+        -   url:  https://dgadex.github.io/
+            icon: bi bi-_portfolio-fill
+    
+    -   name:  Ian Soria
+        role:  3D and junior VFX artist
+        image: assets/team/
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Jorge Florencio Molina Peinado
+        role:  3D artist
+        image: assets/team/jorge.png
+        social:
+        -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
+            icon: bi bi-linkedin
+        -   url:  https://linktr.ee/floromacobaDev
+            icon: bi bi-link-45deg
+    
+    -   name:  Cristian Hernández Delgado
+        role:  3D character artist and animator<br>3D art lead
+        image: assets/team/
+        social:
+        -   url:  https://www.linkedin.com/in/cristian0x0/
+            icon: bi bi-linkedin
+        -   url:  https://www.artstation.com/cristian0x0
+            icon: bi bi-box
+    
+    -   name:  Sergio Gallardo Vieco
+        role:  3D prop artist
+        image: assets/team/sergio.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
+            icon: bi bi-linkedin
+    
+    -   name:  Eva Petrakova
+        role:  3D texture artist
+        image: assets/team/eva.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
+            icon: bi bi-linkedin
+    
+    -   name:  Joan Castells Appriou
+        role:  game and narrative designer
+        image: assets/team/joan.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
+            icon: bi bi-linkedin
+    
+    -   name:  Alex Arévalo Arenas
+        role:  game and sound designer
+        image: assets/team/alex.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/alejandro-arevalo-
+            icon: bi bi-linkedin
+        -   url:  https://alexarevaloarenas.github.io/
+            icon: bi bi-bookmark-fill
+    
+    -   name:  Javier Machín Mourelle (GatlingArt)
+        role:  freelancer, 2D artist<br>2D art lead
+        image: assets/team/machin.png
+        social:
+        -   url:  https://x.com/GatlingArt
+            icon: bi bi-twitter-x
+    
+    -   name: Miguel Martínez Martínez
+        role: freelancer, gameplay programmer
+        image:
+        social:
+        -   url:
+            icon:
+
+en-GB:
+    <<: *DEFAULT_EN
+en-US:
+    <<: *DEFAULT_EN
+en-CA:
+    <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+    people:
+    
+    -   name:  Raúl Planas Jover
+        role:  producer
+        image: assets/team/raul.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/raplajo/
+            icon: bi bi-linkedin
+        -   url:  https://raplajo.itch.io/
+            icon: bi bi-joystick
+    
+    -   name:  Mar Maestro Momparler
+        role:  QA and debugging
+        image: assets/team/mar.jpeg
+        social:
+        -   url:  https://www.linkedin.com/in/marmaestro/
+            icon: bi bi-linkedin
+        -   url:  https://marmaestro.github.io
+            icon: bi bi-bookmark-fill
+    
+    -   name: Álvaro Chuan
+        role: tool and gameplay programmer<br>programming lead
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Mario Beltrán García
+        role:  gameplay programmer
+        image: assets/team/mario.png
+        social:
+        -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
+            icon: bi bi-linkedin
+        -   url:  https://mariio145.itch.io/
+            icon: bi bi-joystick
+    
+    -   name:  Diego Pérez Rueda
+        role:  systems and gameplay programmer
+        image: assets/team/diego.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
+            icon: bi bi-linkedin
+        -   url:  https://kiskidiego.github.io/
+            icon: bi bi-bookmark-fill
+    
+    -   name:  Víctor Melià Vilar
+        role:  VFX tech artist
+        image: assets/team/
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Edward Mena
+        role:  VFX artist
+        image: assets/team/edward.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
+            icon: bi bi-linkedin
+        -   url:  https://dgadex.github.io/
+            icon: bi bi-_portfolio-fill
+    
+    -   name:  Ian Soria
+        role:  3D and junior VFX artist
+        image: assets/team/
+        social:
+        -   url:  https://linkedin.com/in
+            icon: bi bi-linkedin
+        -   url:  https://
+            icon: bi bi-
+    
+    -   name:  Jorge Florencio Molina Peinado
+        role:  3D artist
+        image: assets/team/jorge.png
+        social:
+        -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
+            icon: bi bi-linkedin
+        -   url:  https://linktr.ee/floromacobaDev
+            icon: bi bi-link-45deg
+    
+    -   name:  Cristian Hernández Delgado
+        role:  3D character artist and animator<br>3D art lead
+        image: assets/team/
+        social:
+        -   url:  https://www.linkedin.com/in/cristian0x0/
+            icon: bi bi-linkedin
+        -   url:  https://www.artstation.com/cristian0x0
+            icon: bi bi-box
+    
+    -   name:  Sergio Gallardo Vieco
+        role:  3D prop artist
+        image: assets/team/sergio.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
+            icon: bi bi-linkedin
+    
+    -   name:  Eva Petrakova
+        role:  3D texture artist
+        image: assets/team/eva.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
+            icon: bi bi-linkedin
+    
+    -   name:  Joan Castells Appriou
+        role:  game and narrative designer
+        image: assets/team/joan.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
+            icon: bi bi-linkedin
+    
+    -   name:  Alex Arévalo Arenas
+        role:  game and sound designer
+        image: assets/team/alex.jpg
+        social:
+        -   url:  https://www.linkedin.com/in/alejandro-arevalo-
+            icon: bi bi-linkedin
+        -   url:  https://alexarevaloarenas.github.io/
+            icon: bi bi-bookmark-fill
+    
+    -   name:  Javier Machín Mourelle (GatlingArt)
+        role:  freelancer, 2D artist<br>2D art lead
+        image: assets/team/machin.png
+        social:
+        -   url:  https://x.com/GatlingArt
+            icon: bi bi-twitter-x
+    
+    -   name: Miguel Martínez Martínez
+        role: freelancer, gameplay programmer
+        image:
+        social:
+        -   url:
+            icon:
+es-ES:
+    <<: *DEFAULT_ES
+es-MX:
+    <<: *DEFAULT_ES
+cat:
+    <<: *DEFAULT_ES
