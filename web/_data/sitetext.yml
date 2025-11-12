@@ -34,11 +34,11 @@ en: &DEFAULT_EN
         name-validation: "Please enter your name."
         email: "Email (required)"
         email-validation: "Please enter your email address."
-        phone: "Phone Number (include country prefix)"
-        phone-validation: "Please enter your phone number."
+        phone: "Phone Number (include country code)"
+        subject: Subject"
         message: "Message (required)"
         message-validation: "Please enter a message."
-        subject: "Contact Form [EN]"
+        subject_pref: "Contact Form [EN]"
         submit: "Send Message"
 
     footer:
@@ -97,11 +97,11 @@ es: &DEFAULT_ES
         name-validation: "Por favor, introduce tu nombre."
         email: "Email (obligatorio)"
         email-validation: "Por favor, introduce tu dirección de correo."
-        phone: "Número de teléfono (incluye el prefijo)"
-        phone-validation: "Por favor, introduce tu número de teléfono."
+        phone: "Número de teléfono (incluye el código de país)"
+        subject: "Asunto"
         message: "Mensaje (obligatorio)"
         message-validation: "Por favor, introduce un mensaje."
-        subject: "Contact Form [ES]"
+        subject_pref: "Contact Form [ES]"
         submit: "Enviar mensaje"
 
     footer:
