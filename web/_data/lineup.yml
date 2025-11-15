@@ -56,6 +56,8 @@ en: &DEFAULT_EN
         social:
         -   url:  https://www.linkedin.com/in/victormeliavilar/
             icon: bi bi-linkedin
+        -   url: https://viktor-mjs.itch.io/
+            icon: bi bi-joystick
     
     -   name:  Edward Mena
         role:  VFX artist
@@ -201,10 +203,10 @@ es: &DEFAULT_ES
         role:  artista de VFX<br>>coordinador de VFX
         image: assets/team/victor.jpg
         social:
-        -   url:  https://linkedin.com/in
+        -   url:  https://www.linkedin.com/in/victormeliavilar/
             icon: bi bi-linkedin
-        -   url:  https://
-            icon: bi bi-
+        -   url:  https://viktor-mjs.itch.io/
+            icon: bi bi-joystick
     
     -   name:  Edward Mena
         role:  artista de VFX
