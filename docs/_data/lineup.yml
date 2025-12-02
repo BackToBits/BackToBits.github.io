@@ -174,7 +174,7 @@ es: &DEFAULT_ES
     
     -   name: Álvaro Chuan Díaz-Maroto
         role: programador de herramientas y gameplay<br>coordinador de programación
-        image: asset/team/alvaro.png
+        image: assets/team/alvaro.png
         social:
         -   url:  https://www.linkedin.com/in/%C3%A1lvaro-chuan-9003a4254
             icon: bi bi-linkedin

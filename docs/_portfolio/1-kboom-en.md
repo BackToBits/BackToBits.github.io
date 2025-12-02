@@ -8,7 +8,7 @@ title: K-Boom!
 subtitle: subtitle
 image: assets/portfolio/kboom_thumbnail.png
 alt: K-Boom! thumbnail
-
+lang: en
 ---
 
 **Place and detonate bombs to get through 10 brain-teasing levels!**

@@ -1,13 +1,15 @@
 ---
 caption:
-  title: GoblinMancer
-  subtitle: Resurrect you enemies
-  thumbnail: assets/portfolio/goblinmancer_thumbnail.png
+    title: GoblinMancer
+    subtitle: Resurrect you enemies
+    thumbnail: assets/portfolio/goblinmancer_thumbnail.png
 
 title: GoblinMancer
 subtitle: subtitle
+path: en
 image: assets/portfolio/goblinmancer_banner.png
 alt: GoblinMancer thumbnail
+lang: en
 ---
 
 **Play as an evil goblin necromancer, also known as the almighty GOBLINMANCER!**
