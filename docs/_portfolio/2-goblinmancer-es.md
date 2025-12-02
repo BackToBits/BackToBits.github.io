@@ -12,6 +12,8 @@ alt: GoblinMancer thumbnail
 lang: es
 ---
 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 <img alt="Early in-game screenshot" src="assets/portfolio/goblinmancer_screenshot_1.png" style="width: auto; max-width: 100%;">
 
 {:.list-inline}

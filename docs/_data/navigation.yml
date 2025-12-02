@@ -6,7 +6,7 @@
 en: &DEFAULT_EN
   nav:
     - title: "Projects"
-      section: portfolio
+      section: projects
     - title: "Team"
       section: team
     - title: "Contact"
