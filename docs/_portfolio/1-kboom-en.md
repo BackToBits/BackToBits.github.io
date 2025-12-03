@@ -2,11 +2,11 @@
 caption:
   title: K-Boom!
   subtitle: Get home by blowing up stuff
-  thumbnail: assets/portfolio/kboom_thumbnail.png
+  thumbnail: assets/placeholder/thumbnail.png
   
 title: K-Boom!
 subtitle: subtitle
-image: assets/portfolio/kboom_thumbnail.png
+image: assets/placeholder/banner.png
 alt: K-Boom! thumbnail
 lang: en
 ---
