@@ -13,7 +13,7 @@
 {% if site.data.style.fonts %}
     {% for font in site.data.style.fonts %}
         @mixin {{font.for}}-font {
-                               font-family: "{{ font.name }}", -apple-system, BlinkMacSystemFont, "Segoe UI",
+							   font-family: "{{ font.name }}", -apple-system, BlinkMacSystemFont, "Segoe UI",
                                Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
                                "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
                        }
