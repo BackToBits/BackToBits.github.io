@@ -2,14 +2,11 @@
 ---
 @charset "utf-8";
 
-// Sass classes
 @use 'sass:color';
 
-// Core variables and mixins
 @import "../../_sass/base/variables";
 @import "../../_sass/base/mixins";
 
-// Custom Fonts
 {% if site.data.style.fonts %}
     {% for font in site.data.style.fonts %}
         @mixin {{font.for}}-font {
@@ -20,23 +17,18 @@
     {% endfor %}
 {% endif %}
 
-// Custom colors
 $primary: {{ site.data.style.highlight | default: "#FED136" }} !default;
 $white:   {{ site.data.style.white | default: "#FFF" }} !default;
 $black:   {{ site.data.style.black | default: "#000" }} !default;
 
-// Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 
-// Global CSS
 @import "../../_sass/base/page";
 
-// Components
 @import "../../_sass/components/buttons";
 @import "../../_sass/components/navbar";
 
-// Layout
 @import "../../_sass/layout/masthead";
 @import "../../_sass/layout/portfolio";
 @import "../../_sass/layout/team";

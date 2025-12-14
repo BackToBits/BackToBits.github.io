@@ -9,7 +9,7 @@ plugins:
 
 title      : Back to Bits
 email      : BackToBitsStudio@gmail.com
-description: 
+description: Back to Bits, an indie development studio.
 author     : marmaestro
 logo:
   path: assets/logo/banner-text.png
@@ -29,5 +29,4 @@ sass:
   quiet_deps: true
   silence_deprecations: [import]
 
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
 formspree_id: "f/xeovqzvn"
