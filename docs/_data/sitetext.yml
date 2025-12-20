@@ -3,31 +3,34 @@
 en: &DEFAULT_EN
 
     header:
-        title: Back to Bits
-        text: We make games
+        title: Back to Bits Game Studio
+        text: Videogames are our craft
         button: Reach us!
         buttonlink: "#contact"
 
     portfolio:
-        title: See our projects
-        text: What we're willing to show so far
+        title: Learn About Our Projects
+        text: What we're currently working on
         section: projects
         closebutton: Close
 
     team:
-        title: Who we are
-        body: "We are a team of young developers that met during university and joined forces to make videogames. We have tried and failed at tackling a massive project, worked together on many Game Jams and are now developing commercial releases of our most acclaimed and inspired games after four years working together.\n\nOur team members have diversified skillsets involving all steps of videogame development while being specialized in their most passionate trades, we have dedicated tool developers and contributors to academia alike, building our DNA on the basis of a comprehensive view of interactive software design and development.\n\nWe are highly passionate, and videogame development to us is a deep, grateful expression of ourselves and our love for what this medium has to offer."
+        title: Who We Are
+        body: "We are a team of young developers that met during university and joined forces to make videogames. We have tried and failed at tackling a massive project, worked together on many Game Jams and are now developing commercial releases of our most acclaimed and inspired games after four years working together.
+\n\nOur team members have diversified skillsets involving all steps of videogame development while being specialized in their most passionate trades, we have dedicated tool developers and contributors to academia alike, building our DNA on the basis of a comprehensive view of interactive software design and development. As an indie team being diverse, lean and capable of shifting our style is a large part of our drive to create.
+\n\nWe are highly passionate, and videogame development to us is a deep, grateful expression of ourselves and our love for what this medium has to offer."
         section: team
-        button: Meet us!
+        button: Meet the Crew
         buttonlink: "lineup"
 
     lineup:
-        title: Our fairly large indie team
-        subtitle: "**Too many cooks? That's if you have only one kitchen.**<br>We are experienced in dividing ourselves in subsets to take on parallel development of different projects."
+        title: Our Fairly Large Indie Team
+        subtitle: "**Too many cooks? That's if you have only one kitchen.**\n\n
+We are experienced in splitting up in different subsets to take on parallel development while sustaining horizontal communication."
         section: lineup
 
     contact:
-        title: Reach us!
+        title: Reach Us!
         text: We send the pigeons back, we promise
         section: contact
         name: "Name (required)"
@@ -42,7 +45,7 @@ en: &DEFAULT_EN
         submit: Send it!
 
     footer:
-        legal: Our Privacy Policy
+        legal: All Things Legalese
         social:
         - url: https://bsky.app/profile/backtobits.bsky.social
           icon: "bi bi-bluesky"
@@ -67,7 +70,7 @@ es: &DEFAULT_ES
 
     header:
         title: Back to Bits
-        text: Hacemos juegos
+        text: 'Nuestra pasión<br>es crear videojuegos'
         button: ¡Contacta con nosotros!
         buttonlink: "#contact"
 
@@ -79,19 +82,22 @@ es: &DEFAULT_ES
 
     team:
         title: Quiénes somos
-        body: "Somos jóvenes desarrolladores, nos agrupamos durante nuestros años de universidad para unir fuerzas y crear videojuegos. Intentamos sacar un proyecto inmenso y fracasamos, hemos participado juntos en numerosas Game Jams y ahora estamos desarrollando versiones comerciales de nuestros juegos más aclamados e inspirados tras cuatro años de experiencia juntos.\n\nTodos los miembros de nuestro equipo tienen experiencia participando en cada uno de los pasos del desarrollo de videojuegos, además de estar especializados en sus disciplinas más pasionales. Tenemos desde desarrolladores de herramientas integradas hasta investigadores de academia, trabajando juntos para formar un equipo con una visión amplia sobre el diseño y desarrollo de software interactivo y de entretenimiento.\n\nSomos apasionados, y el desarrollo de videojuegos es para nosotros una expresión profunda de nuestro amor por lo que este medio puede ofrecer."
+        body: "Somos jóvenes desarrolladores, nos agrupamos durante nuestros años de universidad para unir fuerzas y crear videojuegos. Intentamos sacar adelante un proyecto inmenso y fracasamos, hemos participado juntos en numerosas Game Jams y ahora estamos desarrollando versiones comerciales de nuestros juegos más aclamados e inspirados tras cuatro años de experiencia trabajando juntos.\n\n
+Todos los miembros de nuestro equipo tienen experiencia participando en cada uno de los pasos del desarrollo de videojuegos, además de estar especializados en sus disciplinas más pasionales. Tenemos desde desarrolladores de herramientas integradas hasta investigadores de academia, trabajando juntos para formar un equipo con amplios conocimientos sobre el diseño y desarrollo de software interactivo y de entretenimiento. Como estudio indie esta diversidad nos ayuda a ser flexibles y creativos.\n\n
+Somos apasionados, y el desarrollo de videojuegos es para nosotros una expresión profunda de nuestro amor por lo que este medio puede ofrecer."
         section: team
-        button: ¡Conócenos!
+        button: Conoce al equipo
         buttonlink: "lineup"
 
     lineup:
-        title: Un equipo indie más bien grande
-        subtitle: "**Partición e interoperabilidad.**<br>Tenemos experiencia en formar y gestionar subequipos con los que desarrollar distintos proyectos en paralelo."
+        title: Una pandilla más bien grande
+        subtitle: "**Partición e interoperabilidad.**\n\n
+Tenemos experiencia en formar y gestionar subequipos con los que desarrollar distintos proyectos en paralelo, conservando la comunicación horizontal entre miembros."
         section: lineup
 
     contact:
         title: ¡Contáctanos!
-        text: Abrimos el correo, prometido
+        text: Miramos el correo, prometido
         section: contact
         name: "Nombre (obligatorio)"
         name-validation: "Por favor, introduce tu nombre."
@@ -105,7 +111,7 @@ es: &DEFAULT_ES
         submit: "¡Enviar!"
 
     footer:
-        legal: "Nuestra política de privacidad"
+        legal: Papeleo de privacidad
         social:
         - url: https://bsky.app/profile/backtobits.bsky.social
           icon: "bi bi-bluesky"

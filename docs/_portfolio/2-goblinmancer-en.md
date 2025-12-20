@@ -6,21 +6,26 @@ caption:
 
 title: GoblinMancer<br>a Back to Bits Game
 subtitle: The Dead Beckon
-path: en
 image: assets/portfolio/goblinmancer_banner.png
 alt: GoblinMancer thumbnail
 lang: en
 ---
 
+#### Your goblin brethren are not too fond of your antics. A shame their corpses will be the bricks of your undead empire.
+
+GoblinMancer is a tower-defense game where you build your citadel and struggle to survive day after day defending against hordes of goblins who want you dead... no, that ain't the word. Let's say destroyed.
+
+Use the flesh and bones of the fallen to construct an army, towers, crypts and laboratories; burn their blood in sacrilegious ritual to smite them with spells of fire and thunder.
+
+Look at them, their funny ears, confident demeanor, their festivities echoing through to your cursed able hearing. They all hate you, and have no place for you in their world. Let it be so, their world torn asunder. You won't go down without a fight, will you?
+
 #### A power too sweet to give up, flesh stolen from your sibling soul.
 
-In your hands lay a codex of malformed skin, its voice loving and caring. It speaks of unending life, sorrow and hope.
+In your hands lay a codex of malformed skin, its voice loving and caring. It speaks of unending life, sorrow and hope; of a brother of yours that is submerged, unwilling to face the world. It asks you to do right by him.
 
-Time for thought is over, for now, as something stirs in the wilderness. Your crimes haven't gone unnoticed, and goblinkind do not appreciate their dead being messed with. Maybe, some day in the past or future, you might have called them friends and fellows; maybe, some day in the past or future, your sibling soul might have had something to say. It lays quiet, however.
+As the eyes of those who once knew you peer from the wilderness, readying their next attack, they wonder if this calamity may be stopped. They wonder what went wrong. Pray be, you ask that yourself.
 
-Fight for your survival, for your victory over the living, for a chance to learn more about what you have done, in coming here...
-
-Or fight for fun!
+##### This  game is still in early stages of development, and will in time get a demo release faithful to its direction after its experimental version found success.
 
 <img alt="Late in-game screenshot" src="assets/portfolio/goblinmancer_screenshot_2.png" style="width: auto; max-width: 100%;">
 
