@@ -17,9 +17,11 @@
     {% endfor %}
 {% endif %}
 
-$primary: {{ site.data.style.highlight | default: "#FED136" }} !default;
-$white:   {{ site.data.style.white | default: "#FFF" }} !default;
-$black:   {{ site.data.style.black | default: "#000" }} !default;
+$primary: {{ site.data.style.palette.primary | default: "#1c74e9" }} !default;
+$primary-alt: {{ site.data.style.palette.primary-alt | default: "#119da4" }} !default;
+$secondary: {{ site.data.style.palette.secondary | default: "#cd533b" }} !default;
+$white:   {{ site.data.style.palette.white | default: "#edebe8" }} !default;
+$black:   {{ site.data.style.palette.black | default: "#15191e" }} !default;
 
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";

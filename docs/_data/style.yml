@@ -1,6 +1,9 @@
-highlight: "#0D1E81"
-white: "#F2F2F2"
-black: "#303030"
+palette:
+- primary: "#1c74e9"
+- primary-alt: "#119da4"
+- secondary: "#cd533b"
+- white: "#edebe8"
+- black: "#15191e"
 
 header-image: "/assets/team/graduacion.jpg"
 contact-image: "/assets/misc/sticky-notes.jpg"
