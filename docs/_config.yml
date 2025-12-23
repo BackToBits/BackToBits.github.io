@@ -1,32 +1,3 @@
-# Welcome to Jekyll!
-
-theme: jekyll-agency
-plugins:
-  - jekyll-feed
-
-#url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-#baseurl: "" # the subpath of your site, e.g. /blog
-
-title      : Back to Bits
-email      : BackToBitsStudio@gmail.com
-description: Back to Bits, an indie development studio.
-author     : marmaestro
-logo:
-  path: assets/logo/banner-text.png
-  height: 60
-
-locale: "es"
-
-#analytics:
-#  google: #Google Analytics tracking code here
-
-collections:
-  portfolio: 
-
-markdown: kramdown
-
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
-
-formspree_id: "f/xeovqzvn"
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3adb61511ee104a5eab08d2872e4e949dc29ae246c04228df264174689abb87
+size 616
