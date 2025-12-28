@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81b8617678fc6aa76f67dedf8852dbece20f6a17df1746f019f4a7c4122c90b8
-size 654
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "Projects"
+      section: projects
+    - title: "Team"
+      section: team
+    - title: "Contact"
+      section: contact
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  nav:
+    - title: "Proyectos"
+      section: projects
+    - title: "Equipo"
+      section: team
+    - title: "Contacto"
+      section: contact
+es-ES:
+    <<: *DEFAULT_ES
+es-MX:
+    <<: *DEFAULT_ES
+cat:
+    <<: *DEFAULT_ES

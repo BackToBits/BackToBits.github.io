@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1833d228c5bc744d79259f77fe0412c295e3e1944847c39dbfb54b3cc78faab2
-size 2106
+<!-- Team -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title | default: "About Us" }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+            <div class="large text-muted">
+                <div class="large text-muted">{{ site.data.sitetext[site.locale].team.body | markdownify }}</div><br>
+                {%- if site.data.sitetext[site.locale].team.button -%}
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].team.buttonlink }}">{{ site.data.sitetext[site.locale].team.button }}</a>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title | default: "About Us" }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text | default: "" }}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+            <div class="large text-muted">
+                <div class="large text-muted">{{ site.data.sitetext[site.locale].team.body | markdownify }}</div><br>
+                {%- if site.data.sitetext[site.locale].team.button -%}
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].team.buttonlink }}">{{ site.data.sitetext[site.locale].team.button }}</a>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+{% endif %}
+<!-- End Team -->

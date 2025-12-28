@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe33b74f276982ac05a81b57818255f7458bdd42e50b05cd63d90ce9908c0f24
-size 399
+.portfolio-modal {
+
+	.modal-dialog {
+		width: 60%;
+		padding: 2em;
+		margin: auto;
+
+		.modal-content {
+			padding: 2em 0;
+
+			.modal-markdown {
+				max-width: 85%;
+				margin: auto;
+			}
+		}
+	}
+
+	.close-modal {
+
+		width: 35px;
+		height: 35px;
+		right: 35px;
+
+		.lr {
+			width: 1.5px;
+			height: 35px;
+			margin-left: 17.5px;
+
+			.rl {
+				width: 1.5px;
+				height: 35px;
+				margin: 0;
+			}
+		}
+	}
+}

@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0547f2759d19a2dc83377a8900523fb5fb91b5264f75e4fac94e9afbfdcec7de
-size 267
+---
+layout: default
+---
+
+{% include nav.html %}
+
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+document.getElementById("page-top").className="bg-light";
+</script>
+{% endif %}
+
+<div class="container" id="pagecontainer">
+{{ content }}
+</div>

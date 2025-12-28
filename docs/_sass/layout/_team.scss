@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a4807af597a64dedfec293b9c4ca3e8d66b6f40d0b970342e514c73f502d378a
-size 374
+// Styling for the team section
+.team-member {
+	margin-bottom: 50px;
+	text-align: center;
+
+	img {
+		width: 175px;
+		height: 175px;
+	}
+
+	h4 {
+		margin-top: 15px;
+		margin-bottom: 0;
+		text-transform: none;
+		font-size: 20px;
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	ul.social-buttons li a {
+		font-size: 15px;
+		line-height: 35px;
+		display: block;
+		width: 35px;
+		height: 35px;
+	}
+}

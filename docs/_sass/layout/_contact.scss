@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cfff8028d92ffcde1971718e66fb8627459efa4eeeea6545ecd2c19e789c593c
-size 931
+// Styling for the contact section
+section#contact {
+	background-color: $gray-800;
+	background-image: url("#{$contact-image}");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: overlay;
+	.section-heading {
+		color: $white;
+	}
+	.section-subheading {
+		color: $gray-400;
+	}
+	.form-group {
+		margin-bottom: 25px;
+		input,
+		textarea {
+			padding: 20px;
+		}
+		input.form-control {
+			height: auto;
+		}
+		textarea.form-control {
+			height: 248px;
+		}
+	}
+	.form-control:focus {
+		border-color: $primary;
+		box-shadow: none;
+	}
+	::-webkit-input-placeholder {
+		font-weight: 700;
+		color: $gray-400;
+		@include heading-font;
+	}
+	:-moz-placeholder {
+		font-weight: 700;
+		color: $gray-400;
+		@include heading-font;
+	}
+	::-moz-placeholder {
+		font-weight: 700;
+		color: $gray-400;
+		@include heading-font;
+	}
+	:-ms-input-placeholder {
+		font-weight: 700;
+		color: $gray-400;
+		@include heading-font;
+	}
+}
