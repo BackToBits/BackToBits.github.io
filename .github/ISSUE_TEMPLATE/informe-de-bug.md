@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:780b41edc0f9b51f508384d93771ebe6ce8df96b7607eb6530d627e4fa42b0f0
-size 560
+---
+name: Informe de bug
+about: Crea un informe sobre un error
+title: ''
+labels: bug
+assignees: marmaestro
+
+---
+
+**Problema**
+*Cómo se comporta el bug.*
+
+**Cómo reproducirlo**
+*Cómo llegar al bug que has encontrado.*
+1. 
+
+**Comportamiento esperado**
+*Qué esperabas que ocurriera, el funcionamiento correcto.*
+
+**Capturas de pantalla**
+*Muestras de cómo se ve, si ayuda o es necesario.*
+
+**Ordenador**
+ - SO: 
+ - Navegador: 
+- Versión: 
+
+**Teléfono, tablet, etc.**
+ - Modelo del aparato: 
+ - SO: 
+ - Navegador: 
+ - Versión: 
+
+**Información adicional**
