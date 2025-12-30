@@ -1,11 +1,14 @@
 # Welcome to Jekyll!
 
-theme: jekyll-agency
 plugins:
   - jekyll-feed
+  #- jekyll-remote-theme
+  
+theme: jekyll-agency
+#remote_theme: raviriley/agency-jekyll-theme
 
-#url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-#baseurl: "" # the subpath of your site, e.g. /blog
+url    : "http://BackToBitsStudio.github.io"
+baseurl: "/"
 
 title      : Back to Bits
 email      : BackToBitsStudio@gmail.com
