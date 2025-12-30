@@ -8,11 +8,10 @@ plugins:
 remote_theme: 'https://github.com/raviriley/agency-jekyll-theme'
 
 url    : "http://BackToBits.github.io"
-baseurl: ""
 
 title      : Back to Bits
 email      : BackToBitsStudio@gmail.com
-description: Back to Bits, an indie development studio.
+description: Back to Bits, an indie development studio
 author     : marmaestro
 logo:
   path: assets/logo/banner-text.png
