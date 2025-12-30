@@ -7,8 +7,8 @@ plugins:
 theme: jekyll-agency
 #remote_theme: raviriley/agency-jekyll-theme
 
-url    : "http://BackToBitsStudio.github.io"
-baseurl: "/"
+url    : "http://BackToBits.github.io"
+baseurl: ""
 
 title      : Back to Bits
 email      : BackToBitsStudio@gmail.com
