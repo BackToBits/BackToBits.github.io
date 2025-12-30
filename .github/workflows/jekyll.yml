@@ -45,6 +45,7 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
+          bundle i
           cd docs
           bundle exec jekyll build
           cd ../
