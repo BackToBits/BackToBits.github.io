@@ -2,10 +2,10 @@
 
 plugins:
   - jekyll-feed
-  #- jekyll-remote-theme
+  - jekyll-remote-theme
   
-theme: jekyll-agency
-#remote_theme: raviriley/agency-jekyll-theme
+# theme: jekyll-agency
+remote_theme: 'https://github.com/raviriley/agency-jekyll-theme'
 
 url    : "http://BackToBits.github.io"
 baseurl: ""
