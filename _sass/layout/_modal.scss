@@ -5,17 +5,51 @@
 		padding: 2em;
 		margin: auto;
 
+		@media (max-width: 768px) {
+			width: 100%;
+			padding: 0.25em;
+		}
+
 		.modal-content {
 			padding: 2em 0;
 
 			.modal-markdown {
 				max-width: 85%;
 				margin: auto;
+
+				@media (max-width: 768px) {
+					max-width: 95%;
+				}
+
+				.modal-body {
+					@media (max-width: 768px) {
+						h2 {
+							font-size: 2em;
+						}
+
+						h3 {
+							font-size: 1.5em;
+						}
+
+						h4 {
+							font-size: 1.25em;
+						}
+
+						p {
+							font-size: 1em;
+						}
+					}
+				}
 			}
 		}
 	}
 
 	.close-modal {
+
+		@media (max-width: 768px) {
+			visibility: hidden !important;
+			pointer-events: none;
+		}
 
 		width: 35px;
 		height: 35px;
