@@ -6,7 +6,7 @@ caption:
 
 title: GoblinMancer
 subtitle: The Dead Beckon
-image: assets/portfolio/goblinmancer_intro.gif
+image: assets/portfolio/goblinmancer_intro_slow.gif
 alt: GoblinMancer thumbnail
 lang: en
 ---

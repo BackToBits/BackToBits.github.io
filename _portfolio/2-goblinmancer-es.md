@@ -6,7 +6,7 @@ caption:
 
 title: GoblinMancer<br>un juego de Back to Bits
 subtitle: La muerte llama
-image: assets/portfolio/goblinmancer_intro.gif
+image: assets/portfolio/goblinmancer_intro_slow.gif
 alt: GoblinMancer thumbnail
 lang: es
 ---
