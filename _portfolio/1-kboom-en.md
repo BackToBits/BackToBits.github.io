@@ -13,9 +13,9 @@ lang: en
 
 #### Every bomb you place is a step closer to your goal.
 
-<br><img alt="Kameelo the chameleon" src="assets/portfolio/kameelo.gif" style="width: auto; max-width: 35%;">
+<br><img alt="Camilo the chameleon" src="assets/portfolio/camilo.gif" style="width: auto; max-width: 35%;">
 
-Kameelo the chameleon has an arsenal of bombs at his disposal. Choose your strategy before planting bombs in the right order, and then push the trigger!
+Camilo the chameleon has an arsenal of bombs at his disposal. Choose your strategy before planting bombs in the right order, and then push the trigger!
 
 As the bombs explode in order, things might fall right into place or... not at all. Try and test, plan and strategise, forge ahead! K-Boom follows a world-level structure that integrates little by little elements to the scenario that can be moved, toppled or blown up in any other way.
 
