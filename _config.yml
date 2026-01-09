@@ -7,16 +7,17 @@ plugins:
 # theme: jekyll-agency
 remote_theme: 'https://github.com/raviriley/agency-jekyll-theme'
 
-url    : "http://BackToBits.github.io"
+url    : 'https://backtobitsstudio.com'
 
 title      : Back to Bits
-email      : BackToBitsStudio@gmail.com
-description: Back to Bits, an indie development studio
+email      : contact@BackToBitsStudio.com
+description: Back to Bits, an indie development studio.
 author     : marmaestro
 logo:
   path: assets/logo/banner-text.png
   height: 60
-
+  
+timezone: ES
 locale: "en"
 
 #analytics:
