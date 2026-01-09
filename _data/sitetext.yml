@@ -38,10 +38,9 @@ We are experienced in splitting up in different subsets to take on parallel deve
         email: "Email (required)"
         email-validation: "Please enter your email address."
         phone: "Phone Number (include country code)"
-        subject: Subject"
         message: "Message (required)"
         message-validation: "Please enter a message."
-        subject_pref: "Contact Form [EN]"
+        subject: "Contact Form [EN]"
         submit: Send it!
 
     footer:
@@ -104,10 +103,9 @@ Tenemos experiencia en formar y gestionar sub-equipos con los que desarrollar di
         email: "Email (obligatorio)"
         email-validation: "Por favor, introduce tu dirección de correo."
         phone: "Número de teléfono (incluye el código de país)"
-        subject: "Asunto"
         message: "Mensaje (obligatorio)"
         message-validation: "Por favor, introduce un mensaje."
-        subject_pref: "Contact Form [ES]"
+        subject: "Contact Form [ES]"
         submit: "¡Enviar!"
 
     footer:
