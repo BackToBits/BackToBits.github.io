@@ -17,7 +17,7 @@ logo:
   path: assets/logo/banner-text.png
   height: 60
   
-timezone: ES
+timezone: "Europe/Madrid"
 locale: "en"
 
 #analytics:
