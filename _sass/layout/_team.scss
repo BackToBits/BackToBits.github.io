@@ -19,6 +19,24 @@
 		margin-top: 0;
 	}
 
+	.team-list {
+
+		margin-top: -0.75em;
+
+		.team-badge {
+			color: white;
+		}
+
+		.kb {
+			background-color: $k-boom;
+		}
+
+		.gm {
+			background-color: $goblin-mancer;
+		}
+	}
+
+
 	ul.social-buttons li a {
 		font-size: 15px;
 		line-height: 35px;

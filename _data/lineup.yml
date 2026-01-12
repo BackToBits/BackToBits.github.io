@@ -7,6 +7,11 @@ en: &DEFAULT_EN
     
     -   name:  Raúl Planas Jover
         role:  Producer
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/raul.jpg
         social:
         -   url:  https://www.linkedin.com/in/raplajo/
@@ -14,8 +19,14 @@ en: &DEFAULT_EN
         -   url:  https://raplajo.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Mar Maestro Momparler
         role:  QA and Debugging
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/mar.jpeg
         social:
         -   url:  https://www.linkedin.com/in/marmaestro/
@@ -23,8 +34,12 @@ en: &DEFAULT_EN
         -   url:  https://marmaestro.github.io
             icon: bi bi-bookmark-fill
     
+    
     -   name: Álvaro Chuan Díaz-Maroto
         role: Tool and Gameplay Programmer<br>Programming Lead
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/alvaro.png
         social:
         -   url:  https://www.linkedin.com/in/%C3%A1lvaro-chuan-9003a4254
@@ -32,8 +47,12 @@ en: &DEFAULT_EN
         -   url:  https://alvarochuan.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Mario Beltrán García
         role:  Gameplay Programmer
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/mario.png
         social:
         -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
@@ -41,8 +60,12 @@ en: &DEFAULT_EN
         -   url:  https://mariio145.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Diego Pérez Rueda
         role:  Systems and Gameplay Programmer
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/diego.jpg
         social:
         -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
@@ -50,8 +73,12 @@ en: &DEFAULT_EN
         -   url:  https://kiskidiego.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Víctor Melià Vilar
         role:  VFX Tech Artist<br>VFX Lead
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/victor.jpg
         social:
         -   url:  https://www.linkedin.com/in/victormeliavilar/
@@ -59,8 +86,12 @@ en: &DEFAULT_EN
         -   url: https://viktor-mjs.itch.io/
             icon: bi bi-joystick
     
+
     -   name:  Edward Mena
         role:  VFX Artist
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/edward.jpg
         social:
         -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
@@ -68,8 +99,12 @@ en: &DEFAULT_EN
         -   url:  https://dgadex.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Ian Soria Alsina
         role:  3D and Junior VFX Artist
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/ian.jpg
         social:
         -   url:  https://www.linkedin.com/in/ian-soria-alsina-03b3a8209
@@ -77,8 +112,12 @@ en: &DEFAULT_EN
         -   url:  https://ubepunto.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Jorge Florencio Molina Peinado
         role:  3D Artist
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/jorge.png
         social:
         -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
@@ -86,8 +125,12 @@ en: &DEFAULT_EN
         -   url:  https://linktr.ee/floromacobaDev
             icon: bi bi-link-45deg
     
+    
     -   name:  Cristian Hernández Delgado
         role:  3D Character Artist and Animator<br>3D Art Lead
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
@@ -95,29 +138,47 @@ en: &DEFAULT_EN
         -   url:  https://www.artstation.com/cristian0x0
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Sergio Gallardo Vieco
         role:  3D Prop Artist
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/sergio.jpg
         social:
         -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
             icon: bi bi-linkedin
     
+    
     -   name:  Eva Petrakova
         role:  3D Texture Artist
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/eva.jpg
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
             icon: bi bi-linkedin
     
+    
     -   name:  Joan Castells Appriou
-        role:  Game and Narrative Designer
+        role:  Game and Narrative Designer, Concept Artist
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/joan.jpg
         social:
         -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
             icon: bi bi-linkedin
     
+    
     -   name:  Alex Arévalo Arenas
         role:  Game and sound Designer
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/alex.jpg
         social:
         -   url:  https://www.linkedin.com/in/alejandro-arevalo-
@@ -125,8 +186,12 @@ en: &DEFAULT_EN
         -   url:  https://alexarevaloarenas.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Javier Machín Mourelle (GatlingArt)
         role:  Freelancer, 2D Artist<br>2D Art Lead
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/machin.png
         social:
         -   url:  https://x.com/GatlingArt
@@ -134,6 +199,9 @@ en: &DEFAULT_EN
     
     -   name: Miguel Martínez Martínez
         role: Freelancer, Gameplay Programmer
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/miguel.jpg
         social:
         -   url: https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
@@ -156,6 +224,11 @@ es: &DEFAULT_ES
     
     -   name:  Raúl Planas Jover
         role:  Productor
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/raul.jpg
         social:
         -   url:  https://www.linkedin.com/in/raplajo/
@@ -163,8 +236,14 @@ es: &DEFAULT_ES
         -   url:  https://raplajo.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Mar Maestro Momparler
         role:  QA y Debugging
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/mar.jpeg
         social:
         -   url:  https://www.linkedin.com/in/marmaestro/
@@ -172,8 +251,12 @@ es: &DEFAULT_ES
         -   url:  https://marmaestro.github.io
             icon: bi bi-bookmark-fill
     
+    
     -   name: Álvaro Chuan Díaz-Maroto
         role: Programador de Herramientas y Gameplay<br>Coordinador de Programación
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/alvaro.png
         social:
         -   url:  https://www.linkedin.com/in/%C3%A1lvaro-chuan-9003a4254
@@ -181,8 +264,12 @@ es: &DEFAULT_ES
         -   url:  https://alvarochuan.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Mario Beltrán García
         role:  Programador de Gameplay
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/mario.png
         social:
         -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
@@ -190,8 +277,12 @@ es: &DEFAULT_ES
         -   url:  https://mariio145.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Diego Pérez Rueda
         role:  Programador de Sistemas y Gameplay
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/diego.jpg
         social:
         -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
@@ -199,8 +290,12 @@ es: &DEFAULT_ES
         -   url:  https://kiskidiego.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Víctor Melià Vilar
         role:  Artista de VFX<br>>Coordinador de VFX
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/victor.jpg
         social:
         -   url:  https://www.linkedin.com/in/victormeliavilar/
@@ -208,8 +303,12 @@ es: &DEFAULT_ES
         -   url:  https://viktor-mjs.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Edward Mena
         role:  Artista de VFX
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/edward.jpg
         social:
         -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
@@ -217,8 +316,12 @@ es: &DEFAULT_ES
         -   url:  https://dgadex.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Ian Soria Alsina
         role:  Artista 3D y de VFX (Junior)
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/ian.jpg
         social:
         -   url:  https://www.linkedin.com/in/ian-soria-alsina-03b3a8209
@@ -226,8 +329,12 @@ es: &DEFAULT_ES
         -   url:  https://ubepunto.itch.io/
             icon: bi bi-joystick
     
+    
     -   name:  Jorge Florencio Molina Peinado
         role:  Artista 3D
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/jorge.png
         social:
         -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
@@ -235,38 +342,60 @@ es: &DEFAULT_ES
         -   url:  https://linktr.ee/floromacobaDev
             icon: bi bi-link-45deg
     
+    
     -   name:  Cristian Hernández Delgado
         role:  Artista de Personajes y Animación 3D<br>Coordinador de Arte 3D
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
             icon: bi bi-linkedin
         -   url:  https://www.artstation.com/cristian0x0
             icon: bi bi-bookmark-fill
-    
+            
+            
     -   name:  Sergio Gallardo Vieco
         role:  Artista de Elementos 3D
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/sergio.jpg
         social:
         -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
             icon: bi bi-linkedin
-    
+            
+            
     -   name:  Eva Petrakova
         role:  Artista de Texturas 3D
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/eva.jpg
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
             icon: bi bi-linkedin
-    
+            
+            
     -   name:  Joan Castells Appriou
-        role:  Diseñador de Juego y Narrativa
+        role:  Diseñador de Juego y Narrativa, Artista Conceptual
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/joan.jpg
         social:
         -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
             icon: bi bi-linkedin
-    
+            
+            
     -   name:  Alex Arévalo Arenas
         role:  Diseñador de Juego y Sonido
+        teams:
+        -   name: K-Boom!
+            code: kb
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/alex.jpg
         social:
         -   url:  https://www.linkedin.com/in/alejandro-arevalo-
@@ -274,15 +403,23 @@ es: &DEFAULT_ES
         -   url:  https://alexarevaloarenas.github.io/
             icon: bi bi-bookmark-fill
     
+    
     -   name:  Javier Machín Mourelle (GatlingArt)
         role:  Freelancer, Artista 2D<br>Coordinador de Arte 2D
+        teams:
+        -   name: K-Boom!
+            code: kb
         image: assets/team/machin.png
         social:
         -   url:  https://x.com/GatlingArt
             icon: bi bi-twitter-x
     
+    
     -   name:  Miguel Martínez Martínez
         role:  Freelancer, Programador de Gameplay
+        teams:
+        -   name: GoblinMancer
+            code: gm
         image: assets/team/miguel.jpg
         social:
         -   url:  https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
