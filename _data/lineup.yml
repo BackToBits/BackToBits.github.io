@@ -7,6 +7,9 @@ en: &DEFAULT_EN
     
     -   name:  Raúl Planas Jover
         role:  Producer
+        teams:
+            K-Boom!
+            GoblinMancer
         image: assets/team/raul.jpg
         social:
         -   url:  https://www.linkedin.com/in/raplajo/
@@ -16,6 +19,9 @@ en: &DEFAULT_EN
     
     -   name:  Mar Maestro Momparler
         role:  QA and Debugging
+        teams:
+               K-Boom!
+               GoblinMancer
         image: assets/team/mar.jpeg
         social:
         -   url:  https://www.linkedin.com/in/marmaestro/
@@ -25,6 +31,8 @@ en: &DEFAULT_EN
     
     -   name: Álvaro Chuan Díaz-Maroto
         role: Tool and Gameplay Programmer<br>Programming Lead
+        teams:
+              K-Boom!
         image: assets/team/alvaro.png
         social:
         -   url:  https://www.linkedin.com/in/%C3%A1lvaro-chuan-9003a4254
@@ -34,6 +42,8 @@ en: &DEFAULT_EN
     
     -   name:  Mario Beltrán García
         role:  Gameplay Programmer
+        teams:
+               K-Boom!
         image: assets/team/mario.png
         social:
         -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
@@ -43,6 +53,8 @@ en: &DEFAULT_EN
     
     -   name:  Diego Pérez Rueda
         role:  Systems and Gameplay Programmer
+        teams:
+               K-Boom!
         image: assets/team/diego.jpg
         social:
         -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
@@ -52,6 +64,8 @@ en: &DEFAULT_EN
     
     -   name:  Víctor Melià Vilar
         role:  VFX Tech Artist<br>VFX Lead
+        teams:
+               K-Boom!
         image: assets/team/victor.jpg
         social:
         -   url:  https://www.linkedin.com/in/victormeliavilar/
@@ -61,6 +75,8 @@ en: &DEFAULT_EN
     
     -   name:  Edward Mena
         role:  VFX Artist
+        teams:
+               GoblinMancer
         image: assets/team/edward.jpg
         social:
         -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
@@ -70,6 +86,8 @@ en: &DEFAULT_EN
     
     -   name:  Ian Soria Alsina
         role:  3D and Junior VFX Artist
+        teams:
+               GoblinMancer
         image: assets/team/ian.jpg
         social:
         -   url:  https://www.linkedin.com/in/ian-soria-alsina-03b3a8209
@@ -79,6 +97,8 @@ en: &DEFAULT_EN
     
     -   name:  Jorge Florencio Molina Peinado
         role:  3D Artist
+        teams:
+               GoblinMancer
         image: assets/team/jorge.png
         social:
         -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
@@ -88,6 +108,8 @@ en: &DEFAULT_EN
     
     -   name:  Cristian Hernández Delgado
         role:  3D Character Artist and Animator<br>3D Art Lead
+        teams:
+               K-Boom!
         image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
@@ -97,6 +119,8 @@ en: &DEFAULT_EN
     
     -   name:  Sergio Gallardo Vieco
         role:  3D Prop Artist
+        teams:
+               K-Boom!
         image: assets/team/sergio.jpg
         social:
         -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
@@ -104,6 +128,8 @@ en: &DEFAULT_EN
     
     -   name:  Eva Petrakova
         role:  3D Texture Artist
+        teams:
+               K-Boom!
         image: assets/team/eva.jpg
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
@@ -111,6 +137,8 @@ en: &DEFAULT_EN
     
     -   name:  Joan Castells Appriou
         role:  Game and Narrative Designer
+        teams:
+               GoblinMancer
         image: assets/team/joan.jpg
         social:
         -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
@@ -118,6 +146,9 @@ en: &DEFAULT_EN
     
     -   name:  Alex Arévalo Arenas
         role:  Game and sound Designer
+        teams:
+               K-Boom!
+               GoblinMancer
         image: assets/team/alex.jpg
         social:
         -   url:  https://www.linkedin.com/in/alejandro-arevalo-
@@ -127,6 +158,8 @@ en: &DEFAULT_EN
     
     -   name:  Javier Machín Mourelle (GatlingArt)
         role:  Freelancer, 2D Artist<br>2D Art Lead
+        teams:
+               K-Boom!
         image: assets/team/machin.png
         social:
         -   url:  https://x.com/GatlingArt
@@ -134,6 +167,8 @@ en: &DEFAULT_EN
     
     -   name: Miguel Martínez Martínez
         role: Freelancer, Gameplay Programmer
+        teams:
+              GoblinMancer
         image: assets/team/miguel.jpg
         social:
         -   url: https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
@@ -156,6 +191,9 @@ es: &DEFAULT_ES
     
     -   name:  Raúl Planas Jover
         role:  Productor
+        teams:
+               K-Boom!
+               GoblinMancer
         image: assets/team/raul.jpg
         social:
         -   url:  https://www.linkedin.com/in/raplajo/
@@ -165,6 +203,9 @@ es: &DEFAULT_ES
     
     -   name:  Mar Maestro Momparler
         role:  QA y Debugging
+        teams:
+               K-Boom!
+               GoblinMancer
         image: assets/team/mar.jpeg
         social:
         -   url:  https://www.linkedin.com/in/marmaestro/
@@ -174,6 +215,8 @@ es: &DEFAULT_ES
     
     -   name: Álvaro Chuan Díaz-Maroto
         role: Programador de Herramientas y Gameplay<br>Coordinador de Programación
+        teams:
+              K-Boom!
         image: assets/team/alvaro.png
         social:
         -   url:  https://www.linkedin.com/in/%C3%A1lvaro-chuan-9003a4254
@@ -183,6 +226,8 @@ es: &DEFAULT_ES
     
     -   name:  Mario Beltrán García
         role:  Programador de Gameplay
+        teams:
+               K-Boom!
         image: assets/team/mario.png
         social:
         -   url:  https://www.linkedin.com/in/mario-beltr%C3%A1n-garc%C3%ADa-1a6a99252
@@ -192,6 +237,8 @@ es: &DEFAULT_ES
     
     -   name:  Diego Pérez Rueda
         role:  Programador de Sistemas y Gameplay
+        teams:
+               K-Boom!
         image: assets/team/diego.jpg
         social:
         -   url:  https://www.linkedin.com/in/diego-p%C3%A9rez-rueda-072669258/
@@ -201,6 +248,8 @@ es: &DEFAULT_ES
     
     -   name:  Víctor Melià Vilar
         role:  Artista de VFX<br>>Coordinador de VFX
+        teams:
+               K-Boom!
         image: assets/team/victor.jpg
         social:
         -   url:  https://www.linkedin.com/in/victormeliavilar/
@@ -210,6 +259,8 @@ es: &DEFAULT_ES
     
     -   name:  Edward Mena
         role:  Artista de VFX
+        teams:
+               GoblinMancer
         image: assets/team/edward.jpg
         social:
         -   url:  https://www.linkedin.com/in/edward-alejandro-mena-ordo%C3%B1ez
@@ -219,6 +270,8 @@ es: &DEFAULT_ES
     
     -   name:  Ian Soria Alsina
         role:  Artista 3D y de VFX (Junior)
+        teams:
+               GoblinMancer
         image: assets/team/ian.jpg
         social:
         -   url:  https://www.linkedin.com/in/ian-soria-alsina-03b3a8209
@@ -228,6 +281,8 @@ es: &DEFAULT_ES
     
     -   name:  Jorge Florencio Molina Peinado
         role:  Artista 3D
+        teams:
+               GoblinMancer
         image: assets/team/jorge.png
         social:
         -   url:  https://www.linkedin.com/in/jorgeflorenciomolinapeinado/
@@ -237,6 +292,8 @@ es: &DEFAULT_ES
     
     -   name:  Cristian Hernández Delgado
         role:  Artista de Personajes y Animación 3D<br>Coordinador de Arte 3D
+        teams:
+               K-Boom!
         image: assets/team/cristian.png
         social:
         -   url:  https://www.linkedin.com/in/cristian0x0/
@@ -246,6 +303,8 @@ es: &DEFAULT_ES
     
     -   name:  Sergio Gallardo Vieco
         role:  Artista de Elementos 3D
+        teams:
+               K-Boom!
         image: assets/team/sergio.jpg
         social:
         -   url:  https://www.linkedin.com/in/sergio-gallardo-vieco-157575236
@@ -253,6 +312,8 @@ es: &DEFAULT_ES
     
     -   name:  Eva Petrakova
         role:  Artista de Texturas 3D
+        teams:
+               K-Boom!
         image: assets/team/eva.jpg
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
@@ -260,6 +321,8 @@ es: &DEFAULT_ES
     
     -   name:  Joan Castells Appriou
         role:  Diseñador de Juego y Narrativa
+        teams:
+               GoblinMancer
         image: assets/team/joan.jpg
         social:
         -   url:  https://www.linkedin.com/in/joan-castells-appriou-2a6583171/
@@ -267,6 +330,9 @@ es: &DEFAULT_ES
     
     -   name:  Alex Arévalo Arenas
         role:  Diseñador de Juego y Sonido
+        teams:
+               K-Boom!
+               GoblinMancer
         image: assets/team/alex.jpg
         social:
         -   url:  https://www.linkedin.com/in/alejandro-arevalo-
@@ -276,6 +342,8 @@ es: &DEFAULT_ES
     
     -   name:  Javier Machín Mourelle (GatlingArt)
         role:  Freelancer, Artista 2D<br>Coordinador de Arte 2D
+        teams:
+               K-Boom!
         image: assets/team/machin.png
         social:
         -   url:  https://x.com/GatlingArt
@@ -283,6 +351,8 @@ es: &DEFAULT_ES
     
     -   name:  Miguel Martínez Martínez
         role:  Freelancer, Programador de Gameplay
+        teams:
+               GoblinMancer
         image: assets/team/miguel.jpg
         social:
         -   url:  https://www.linkedin.com/in/miguel-mart%C3%ADnez-mart%C3%ADnez-13a498a5
