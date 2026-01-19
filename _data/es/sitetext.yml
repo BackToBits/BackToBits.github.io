@@ -1,0 +1,52 @@
+header:
+    title: Back to Bits
+    text: Indie con pasión
+    button: ¡Contacta con nosotros!
+    buttonlink: "#contact"
+
+portfolio:
+    title: Nuestros proyectos
+    text: En qué estamos trabajando, de momento
+    section: projects
+    closebutton: Cerrar
+
+team:
+    title: Quiénes somos
+    body: "Somos jóvenes desarrolladores, nos agrupamos durante nuestros años de universidad para unir fuerzas y crear videojuegos. Intentamos sacar adelante un proyecto inmenso y fracasamos, hemos participado juntos en numerosas Game Jams y ahora estamos desarrollando versiones comerciales de nuestros juegos más aclamados e inspirados tras cuatro años de experiencia trabajando juntos.\n\n
+Todos los miembros de nuestro equipo tienen experiencia participando en cada uno de los pasos del desarrollo de videojuegos, además de estar especializados en sus disciplinas más pasionales. Tenemos desde desarrolladores de herramientas integradas hasta investigadores de academia, trabajando juntos para formar un equipo con amplios conocimientos sobre el diseño y desarrollo de software interactivo y de entretenimiento. Como estudio indie esta diversidad nos ayuda a ser flexibles y creativos.\n\n
+Somos apasionados, y el desarrollo de videojuegos es para nosotros una expresión profunda de nuestro amor por lo que este medio puede ofrecer."
+    section: team
+    button: Conoce al equipo
+    buttonlink: "lineup"
+
+lineup:
+    title: Una pandilla más bien grande
+    subtitle: "**Partición e interoperabilidad.**\n\n
+Tenemos experiencia en formar y gestionar sub-equipos con los que desarrollar distintos proyectos en paralelo, conservando la comunicación horizontal entre miembros."
+    section: lineup
+
+contact:
+    title: ¡Contáctanos!
+    text: Miramos el correo, prometido
+    section: contact
+    name: "Nombre (obligatorio)"
+    name-validation: "Por favor, introduce tu nombre."
+    email: "Email (obligatorio)"
+    email-validation: "Por favor, introduce tu dirección de correo."
+    phone: "Número de teléfono (incluye el código de país)"
+    message: "Mensaje (obligatorio)"
+    message-validation: "Por favor, introduce un mensaje."
+    subject: "Contact Form [ES]"
+    submit: "¡Enviar!"
+
+footer:
+    legal: Papeleo de privacidad
+    social:
+    - url: https://bsky.app/profile/backtobits.bsky.social
+      icon: "bi bi-bluesky"
+    - url: https://x.com/BackToBitsSt
+      icon: "bi bi-twitter-x"
+    - url: https://www.linkedin.com/company/backtobits/
+      icon: "bi bi-linkedin"
+    - url: https://github.com/BackToBits
+      icon: "bi bi-github"

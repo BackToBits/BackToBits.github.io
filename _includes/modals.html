@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
 {% for project in site.portfolio %}
-{% if project.lang == site.locale %}
+{% if project.lang == site.active_lang %}
 	<div
 	  class="portfolio-modal modal fade"
 	  id="p{{ forloop.index }}"
@@ -34,7 +34,7 @@
 					type="button"
 				  >
 					<i class="fas fa-times"></i>
-					{{ site.data.sitetext[site.locale].portfolio.closebutton }}
+					{{ site.data[site.active_lang].sitetext.portfolio.closebutton }}
 				  </button>
 				</div>
 			  </div>

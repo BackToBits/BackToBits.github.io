@@ -1,4 +1,6 @@
 // Styling for the portfolio section
+@use 'sass:color';
+
 #projects {
 	.portfolio-projects {
 		justify-content: space-between;
