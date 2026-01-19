@@ -157,8 +157,10 @@ en: &DEFAULT_EN
             code: kb
         image: assets/team/eva.jpg
         social:
-        -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
+        -   url: https://www.linkedin.com/in/eva-maria-garcia-petrakova
             icon: bi bi-linkedin
+        -   url: https://www.artstation.com/viidost6
+            icon: bi bi-bookmark-fill
     
     
     -   name:  Joan Castells Appriou
@@ -376,6 +378,8 @@ es: &DEFAULT_ES
         social:
         -   url:  https://www.linkedin.com/in/eva-maria-garcia-petrakova
             icon: bi bi-linkedin
+        -   url:  https://www.artstation.com/viidost6
+            icon: bi bi-bookmark-fill
             
             
     -   name:  Joan Castells Appriou
