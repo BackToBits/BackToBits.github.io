@@ -5,7 +5,7 @@ email      : contact@BackToBitsStudio.com
 description: Back to Bits, an indie development studio.
 author     : marmaestro
 logo:
-    path: assets/logo/banner-text.png
+    path: /assets/logo/banner-text.png
     height: 60
 
 
@@ -14,7 +14,7 @@ timezone: "Europe/Madrid"
 locale: "en"
 languages: ['en', 'es']
 default_lang: 'en'
-exclude_from_localization: []
+exclude_from_localization: ['assets']
 parallel_localization: false
 
 
@@ -32,7 +32,7 @@ collections:
 # Jekyll plugins:
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-polyglot
 
 
 # Utilities config
@@ -40,7 +40,4 @@ markdown: kramdown
 sass:
     quiet_deps: true
     silence_deprecations: [import]
-
-
-# Jekyll theme
-remote_theme: 'https://github.com/raviriley/agency-jekyll-theme'
+    sourcemap: never

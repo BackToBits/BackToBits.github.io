@@ -2,11 +2,11 @@
 caption:
     title: GoblinMancer
     subtitle: Raise the dead, fight extravagant armies... and find out just what the hell is wrong with you.
-    thumbnail: assets/portfolio/goblinmancer_thumbnail.png
+    thumbnail: /../assets/portfolio/goblinmancer_thumbnail.png
 
 title: GoblinMancer
 subtitle: The Dead Beckon
-image: assets/portfolio/goblinmancer_intro_slow.gif
+image: /../assets/portfolio/goblinmancer_intro_slow.gif
 alt: GoblinMancer thumbnail
 lang: en
 ---
@@ -23,7 +23,7 @@ Look at them, their funny ears, confident demeanour, their festivities echoing t
 
 You can find the prototype, made for a game jam, on [itch.io](https://kiskidiego.itch.io/goblinmancer).
 
-<img alt="Late in-game screenshot" src="assets/portfolio/goblinmancer_screenshot_2.png" style="width: auto; max-width: 100%;">
+<img alt="Late in-game screenshot" src="/../assets/portfolio/goblinmancer_screenshot_2.png" style="width: auto; max-width: 100%;">
 
 {:.list-inline}
 - Jam release: Oct 2025
