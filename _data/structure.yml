@@ -1,0 +1,9 @@
+# Site structure for headers
+portfolio:
+    section: projects
+team:
+    section: team
+lineup:
+    section: lineup
+contact:
+    section: contact

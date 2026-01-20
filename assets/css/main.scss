@@ -4,8 +4,8 @@
 
 @use 'sass:color';
 
-@import "../../_sass/base/variables";
-@import "../../_sass/base/mixins";
+@import "base/variables";
+@import "base/mixins";
 
 {% if site.data.style.fonts %}
     {% for font in site.data.style.fonts %}
@@ -26,14 +26,14 @@ $black:   {{ site.data.style.palette.black | default: "#15191e" }} !default;
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 
-@import "../../_sass/base/page";
+@import "base/page";
 
-@import "../../_sass/components/buttons";
-@import "../../_sass/components/navbar";
+@import "components/buttons";
+@import "components/navbar";
 
-@import "../../_sass/layout/masthead";
-@import "../../_sass/layout/portfolio";
-@import "../../_sass/layout/modal";
-@import "../../_sass/layout/team";
-@import "../../_sass/layout/contact";
-@import "../../_sass/layout/footer";
+@import "layout/masthead";
+@import "layout/portfolio";
+@import "layout/modal";
+@import "layout/team";
+@import "layout/contact";
+@import "layout/footer";
