@@ -9,6 +9,7 @@ subtitle: The Dead Beckon
 image: /../assets/portfolio/goblinmancer_intro_slow.gif
 alt: GoblinMancer thumbnail
 lang: en
+permalink: goblinmancer
 ---
 
 #### The goblin brethren are not too fond of your antics. A shame their corpses will be the bricks of your undead empire.

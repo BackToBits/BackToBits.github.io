@@ -46,3 +46,7 @@ footer:
         icon: "bi bi-linkedin"
     -   url: https://github.com/BackToBits
         icon: "bi bi-github"
+        
+error:
+    title: 404 - Page Not Found
+    body: The requested page could not be found.

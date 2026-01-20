@@ -9,6 +9,7 @@ subtitle: Stop at nothing to get back home. This is a game about puzzles, solved
 image: /../assets/portfolio/kboom_banner.jpg
 alt: K-Boom! banner
 lang: en
+permalink: kboom
 ---
 
 #### Every bomb you place is a step closer to your goal.

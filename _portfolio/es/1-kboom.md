@@ -4,11 +4,12 @@ caption:
   subtitle: Bomba y bomba, y rebobino porque me toca. ¡Rompecabezas y explosiones!
   thumbnail: /../assets/portfolio/kboom_thumbnail.gif
 
-title: K-Boom!<br>un juego de Back to Bits
+title: K-Boom!
 subtitle: Que nada te detenga para llegar a casa. ¡Este es un juego de rompecabezas resueltos a bombazos!
 image: /../assets/portfolio/kboom_banner.jpg
 alt: K-Boom! thumbnail
 lang: es
+permalink: kboom
 ---
 
 #### Cada bomba que colocas, un paso más hacia tu destino.
@@ -21,9 +22,9 @@ A medida que las bombas explotan en orden las cosas pueden haber salido a pedir 
 
 <video width="100%" height="auto" autoplay muted loop disablepictureinpicture>
     <source src="/../assets/portfolio/kboom_gameplay.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+    Tu navegador no soporta la etiqueda de video.
 </video>
-*Aquí puedes ver a nuestra coordinadora de QA liándola durante el gameplay.*
+*Aquí puedes ver a nuestra jefa de QA liándola en un gameplay.*
 
 ¡Estos niveles se han diseñado con gran precisión!
 

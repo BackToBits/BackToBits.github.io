@@ -38,11 +38,15 @@ contact:
 footer:
     legal: Papeleo de privacidad
     social:
-    - url: https://bsky.app/profile/backtobits.bsky.social
-      icon: "bi bi-bluesky"
-    - url: https://x.com/BackToBitsSt
-      icon: "bi bi-twitter-x"
-    - url: https://www.linkedin.com/company/backtobits/
-      icon: "bi bi-linkedin"
-    - url: https://github.com/BackToBits
-      icon: "bi bi-github"
+    -   url: https://bsky.app/profile/backtobits.bsky.social
+        icon: "bi bi-bluesky"
+    -   url: https://x.com/BackToBitsSt
+        icon: "bi bi-twitter-x"
+    -   url: https://www.linkedin.com/company/backtobits/
+        icon: "bi bi-linkedin"
+    -   url: https://github.com/BackToBits
+        icon: "bi bi-github"
+      
+error:
+    title: 404 - Página no encontrada
+    body: La página solicitada no ha sido encontrada.
