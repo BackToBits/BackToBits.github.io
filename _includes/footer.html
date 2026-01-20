@@ -6,20 +6,6 @@
 				<span class="copyright">
 					Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
 				</span>
-				<!-- Language Toggle -->
-				<span class="lang-toggler">
-				{% for lang in site.languages %}
-					{% if lang == site.active_lang %}
-						{{ lang | upcase }}
-					{% else %}
-						{% if lang == site.default_lang %}
-							<a href=" {{ page.url }}">{{ lang | upcase }}</a>
-							{% else %}
-							<a href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
-						{% endif %}
-					{% endif %}
-				{% endfor %}
-			</span>
 			</div>
 			<!-- Social Media -->
 			<div class="col-md-4">

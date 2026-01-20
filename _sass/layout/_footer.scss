@@ -19,18 +19,6 @@
 		@include heading-font;
 	}
 
-	span.lang-toggler {
-		margin: auto;
-		font-weight: 600;
-		display: flex;
-		gap: 1rem;
-		justify-content: center;
-
-		a {
-			text-decoration: none;
-		}
-	}
-
 	a.legal {
 		font-size: 110%;
 	}

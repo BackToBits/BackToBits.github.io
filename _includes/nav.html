@@ -1,46 +1,57 @@
 <!-- Navigation -->
-<nav
-	class="navbar navbar-expand-lg navbar-dark fixed-top"
-	id="mainNav"
-	style="background-color: #212529"
->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 	<div class="container">
-		<a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
+		<!-- Page logo/title -->
+		<a class="navbar-brand js-scroll-trigger" href="#page-top">
 			{%- if site.logo -%}
-				<img
-					height="{{ site.logo.height | default: 52 }}"
-					src="{{ site.logo.path }}"
-				/>
-			{%- else -%} {{ site.title }} {%- endif -%}
+			<img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+			{%- else -%}
+			{{ site.title }}
+			{%- endif -%}
 		</a>
-		<button
-			class="navbar-toggler navbar-toggler-right"
-			type="button"
-			data-toggle="collapse"
-			data-target="#navbarResponsive"
-			aria-controls="navbarResponsive"
-			aria-expanded="false"
-			aria-label="Toggle navigation"
-		>
-			Menu<i class="fas fa-bars"></i>
+		<!-- Navbar button -->
+		<button class="navbar-toggler navbar-toggler-right"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarResponsive"
+				aria-controls="navbarResponsive"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+			Menu
+			<i class="bi bi-list"></i>
 		</button>
+		<!-- Navbar menu -->
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav text-uppercase ml-auto">
-				{%- for link in site.data[site.active_lang].navigation.nav -%}
-					<li class="nav-item">
-						{%- if link.url -%}
-							<a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-						{%- elsif link.section -%}
-							<a
-								class="nav-link js-scroll-trigger"
-								href="{{ site.baseurl }}/#{{ link.section }}"
-							>{{ link.title }}</a>
-						{%- else -%}
-							<a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-						{%- endif -%}
-					</li>
-				{%- endfor -%}
+				{% for link in site.data[site.active_lang].navigation.nav %}
+				<li class="nav-item">
+					{%- if link.url -%}
+					<a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+					{%- elsif link.section -%}
+					<a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+					{%- else -%}
+					<a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+					{%- endif -%}
+				</li>
+				{% endfor %}
+				<li class="nav-item">
+					<!-- Language Toggle -->
+					<span class="lang-toggler" id="compressed">
+						{% for lang in site.languages %}
+							{% if lang == site.active_lang %}
+								{{ lang | upcase }}
+							{% else %}
+								{% if lang == site.default_lang %}
+									<a href=" {{ page.url }}">{{ lang | upcase }}</a>
+									{% else %}
+									<a href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</span>
+				</li>
 			</ul>
+
 		</div>
 	</div>
 </nav>

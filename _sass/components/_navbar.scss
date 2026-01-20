@@ -3,6 +3,17 @@
 
 #mainNav {
 
+	span.lang-toggler {
+		padding: 0.75em 0;
+		font-weight: 600;
+		display: flex;
+		gap: 1rem;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
 	.navbar-toggler {
 		font-size: 12px;
 		right: 0;
@@ -47,12 +58,18 @@
 		transition: padding-top 0.3s, padding-bottom 0.3s;
 		border: none;
 		background-color: transparent !important;
+
+		span.lang-toggler {
+			padding: 1.1em 1em !important;
+		}
+
 		.navbar-brand {
 			font-size: 1.75em;
 			-webkit-transition: all 0.3s;
 			-moz-transition: all 0.3s;
 			transition: all 0.3s;
 		}
+
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
@@ -60,10 +77,12 @@
 				}
 			}
 		}
+
 		&.navbar-shrink {
 			padding-top: 0;
 			padding-bottom: 0;
 			background-color: $header-light !important;
+
 			.navbar-brand {
 				font-size: 1.25em;
 				padding: 12px 0;
