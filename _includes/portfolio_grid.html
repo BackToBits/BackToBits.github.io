@@ -1,15 +1,15 @@
 <!-- Portfolio Grid -->
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].portfolio.section }}">
+<section class="bg-light page-section" id="{{ site.data.structure.portfolio.section }}">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].portfolio.title }}</h2>
-				<h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].portfolio.text | markdownify }}</h3>
+				<h2 class="section-heading text-uppercase">{{ site.data[site.active_lang].sitetext.portfolio.title }}</h2>
+				<h3 class="section-subheading text-muted">{{ site.data[site.active_lang].sitetext.portfolio.text | markdownify }}</h3>
 			</div>
 		</div>
 		<div class="row portfolio-projects">
 			{% for project in site.portfolio %}
-			{% if project.lang == site.locale %}
+			<!--{% if project.lang == site.active_lang %}-->
 			<div class="portfolio-item">
 				<a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
 					<div class="portfolio-hover">
@@ -24,7 +24,7 @@
 					<p class="text-muted">{{ project.caption.subtitle }}</p>
 				</div>
 			</div>
-			{% endif %}
+			<!--{% endif %}-->
 			{% endfor %}
 		</div>
 	</div>

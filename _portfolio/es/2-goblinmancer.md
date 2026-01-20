@@ -2,13 +2,14 @@
 caption:
     title: GoblinMancer
     subtitle: Profanar tumbas nunca había sido tan entretenido... ¿Es eso un libro que habla? ¿Qué me está pasando?
-    thumbnail: assets/portfolio/goblinmancer_thumbnail.png
+    thumbnail: /../assets/portfolio/goblinmancer_thumbnail.png
 
-title: GoblinMancer<br>un juego de Back to Bits
+title: GoblinMancer
 subtitle: La muerte llama
-image: assets/portfolio/goblinmancer_intro_slow.gif
+image: /../assets/portfolio/goblinmancer_intro_slow.gif
 alt: GoblinMancer thumbnail
 lang: es
+permalink: goblinmancer
 ---
 
 #### Los pueblos goblin están bastante desencantados con tus últimos logros. Una pena que sus cadáveres sean los cimientos de tu imperio no-muerto.
@@ -22,6 +23,8 @@ Míralos, con sus orejotas estúpidas y sus andares confiados, tus oidos tienen 
 ###### Este juego se encuentra en un estado de desarrollo poco avanzado y eventualmente recibirá una demo acorde a su nueva dirección desde que se desarrolló su versión experimental.
 
 Puedes jugar el prototipo, hecho para una game jam, en [itch.io](https://kiskidiego.itch.io/goblinmancer).
+
+<img alt="Captura de pantalla del modo libre." src="/../assets/portfolio/goblinmancer_screenshot_2.png" style="width: auto; max-width: 100%;">
 
 {:.list-inline}
 - Salida de jam: Oct 2025

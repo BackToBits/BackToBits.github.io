@@ -1,35 +1,43 @@
-# Welcome to Jekyll!
-
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  
-# theme: jekyll-agency
-remote_theme: 'https://github.com/raviriley/agency-jekyll-theme'
-
+# Site config
 url    : 'https://backtobitsstudio.com'
-
 title      : Back to Bits
 email      : contact@BackToBitsStudio.com
 description: Back to Bits, an indie development studio.
 author     : marmaestro
 logo:
-  path: assets/logo/banner-text.png
-  height: 60
-  
+    path: /assets/logo/banner-text.png
+    height: 60
+
+
+# I18n and locale
 timezone: "Europe/Madrid"
 locale: "en"
+languages: ['en', 'es']
+default_lang: 'en'
+exclude_from_localization: ['assets']
+parallel_localization: false
 
+
+# Analytics and forms
 #analytics:
 #  google: #Google Analytics tracking code here
-
-collections:
-  portfolio: 
-
-markdown: kramdown
-
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
-
 formspree_id: "f/xeovqzvn"
+
+
+# Collections
+collections:
+    portfolio:
+
+
+# Jekyll plugins:
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
+
+
+# Utilities config
+markdown: kramdown
+sass:
+    quiet_deps: true
+    silence_deprecations: [import]
+    sourcemap: never

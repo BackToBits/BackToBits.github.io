@@ -1,0 +1,7 @@
+nav:
+-   title: "Proyectos"
+    section: projects
+-   title: "Equipo"
+    section: team
+-   title: "Contacto"
+    section: contact
