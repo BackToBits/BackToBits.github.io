@@ -31,9 +31,9 @@
 								{{ lang | upcase }}
 							{% else %}
 								{% if lang == site.default_lang %}
-									<a href="{{ page.url }}">{{ lang | upcase }}</a>
+									<a class="nav-link" href="{{ page.url }}">{{ lang | upcase }}</a>
 									{% else %}
-									<a href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
+									<a class="nav-link" href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
 								{% endif %}
 							{% endif %}
 						{% endfor %}

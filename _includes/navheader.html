@@ -39,12 +39,12 @@
 					<span class="lang-toggler">
 						{% for lang in site.languages %}
 							{% if lang == site.active_lang %}
-								{{ lang | upcase }}
+								<span class="nav-link js-scroll-trigger" id="current-language">{{ lang | upcase }}</span>
 							{% else %}
 								{% if lang == site.default_lang %}
-									<a href=" {{ page.url }}">{{ lang | upcase }}</a>
-									{% else %}
-									<a href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
+									<a class="nav-link js-scroll-trigger" href=" {{ page.url }}">{{ lang | upcase }}</a>
+								{% else %}
+									<a class="nav-link js-scroll-trigger" href="/{{ lang }}{{ page.url }}">{{ lang | upcase }}</a>
 								{% endif %}
 							{% endif %}
 						{% endfor %}
