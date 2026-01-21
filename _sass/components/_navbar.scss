@@ -4,12 +4,13 @@
 #mainNav {
 
 	span.lang-toggler {
-		padding: 0.75em 0;
-		font-size: 90%;
-		letter-spacing: 1px;
-		font-weight: 600;
 		display: flex;
-		gap: 1rem;
+		gap: 1.5rem;
+
+		#current-language {
+			color: $primary;
+			cursor: default;
+		}
 
 		a {
 			text-decoration: none;
@@ -62,7 +63,7 @@
 		background-color: transparent !important;
 
 		span.lang-toggler {
-			padding: 1.1em 1em !important;
+			gap: 0;
 		}
 
 		.navbar-brand {
